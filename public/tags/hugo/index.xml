@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on zzh0u&#39;s blog</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on zzh0u&#39;s blog</description>
+    <title>Hugo on zzh0u&#39;s blog</title>
+    <link>http://localhost:1313/tags/hugo/</link>
+    <description>Recent content in Hugo on zzh0u&#39;s blog</description>
     <image>
       <title>zzh0u&#39;s blog</title>
       <url>http://localhost:1313/static/DS.jpg</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.125.3</generator>
     <language>en</language>
     <lastBuildDate>Tue, 28 May 2024 13:47:41 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
       <link>http://localhost:1313/posts/my-first-post/</link>

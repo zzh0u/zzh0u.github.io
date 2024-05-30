@@ -2,6 +2,7 @@
 title = 'My First Post'
 date = 2024-05-28T13:47:41+08:00
 draft = false
+tags = ["转载"]
 +++
 
 # 黑羊-卡尔维诺
