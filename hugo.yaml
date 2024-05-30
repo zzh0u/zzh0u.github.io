@@ -20,7 +20,7 @@ params:
   author: zzh0u
   # author: ["Me", "You"] # multiple authors
   images: ["./static/DS.jpg"]
-  DateFormat: "May 28, 2024"
+  DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
