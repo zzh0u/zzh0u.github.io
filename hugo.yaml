@@ -1,4 +1,4 @@
-baseURL: "https://zzh0u.github.io/"
+baseURL: "https://zzh0u.github.io"
 title: zzh0u's blog
 paginate: 5
 theme: PaperMod
@@ -43,15 +43,15 @@ params:
   assets:
     disableHLJS: false # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<./static/avatar.JPG>"
-    favicon16x16: "<./static/avatar.JPG>"
-    favicon32x32: "<./static/avatar.JPG>"
-    apple_touch_icon: "<./static/avatar.JPG>"
-    safari_pinned_tab: "<./static/avatar.JPG>"
+    favicon: "</public/avatar.JPG>"
+    favicon16x16: "</public/avatar.JPG>"
+    favicon32x32: "</public/avatar.JPG>"
+    apple_touch_icon: "</public/avatar.JPG>"
+    safari_pinned_tab: "</public/avatar.JPG>"
 
   label:
     text: "main"
-    icon: /apple-touch-icon.png
+    icon: /public/avatar.JPG
     iconHeight: 35
 
   # profile-mode
@@ -64,7 +64,7 @@ params:
     imageHeight: 120
     imageTitle: my image
     buttons:
-      - name: Posts
+      - name: nameM
         url: posts
       - name: Tags
         url: tags
@@ -88,9 +88,9 @@ params:
       SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   # editPost:
   #   URL: "https://github.com/<path_to_repo>/content"
@@ -118,6 +118,10 @@ menu:
       name: tags
       url: /tags/
       weight: 20
+    - idertifier: about
+      name: about
+      url: /public/about.md
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
@@ -128,4 +132,3 @@ markup:
     guessSyntax: true
     lineNos: true
     style: monokai
-
