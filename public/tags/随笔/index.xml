@@ -10,7 +10,7 @@
       <link>http://localhost:1313/static/DS.jpg</link>
     </image>
     <generator>Hugo -- 0.125.3</generator>
-    <language>en</language>
+    <language>zh-cn</language>
     <lastBuildDate>Sat, 01 Jun 2024 11:39:43 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -18,13 +18,7 @@
       <link>http://localhost:1313/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%8E%86%E7%A8%8B/</link>
       <pubDate>Sat, 01 Jun 2024 11:39:43 +0800</pubDate>
       <guid>http://localhost:1313/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%8E%86%E7%A8%8B/</guid>
-      <description>几经波折，博客终于是要上线了orz。
-第一次有萌生搭建博客的经历，是在去年(2023)中旬吧，当时协会里面说是要大家伙一起做博客系统，然后就搭了一个，然后就没有然后了:-(
-后来因为啥都不会，除了互联网垃圾，实在没有什么能够输出的，一气之下把那个repo删掉了。
-再后来就是这个博客了。开始之前我做了不少准备，看了不少博客主题，但都没有那种能够直击心灵的那种主题，要么排版布局不好，要么太繁杂。我也是学计算机的，本着没有就自己做的心态(其实啥都没做过)，我准备手搓一个博客的。而且因为以前没碰过web，正好借这个机会学一学老三件。写到一半发现，这种东西我是不好意思拿过去部署上线的，最终还是选了这个比较满意的papermod主题。
-但关于内容这一块，我也不是很明晰，因为我逛博客逛的特别多，光rss订阅就有二十多个，他们写的博文含金量都很高，我短时间内应该是没有那个技术水准的，可能就水一水，随便说一些想说的话吧。
-现在这个博客还有一些地方没有做好🤔，写一个todo list，以后做好一项就划去一项:-)
-menu自定义 文章阅读量显示 rss订阅按钮 博客系统的路径 favicon配置 书影音 读完：长安的荔枝@马伯庸｜★★★★☆ 读完：太白金星有点烦@马伯庸｜★★★★☆ 在读：山月记@中岛敦｜★★★☆☆ 看完：猩球崛起4｜★☆☆☆☆ 看完：你想活出怎样的人生｜★★★★☆ 重温：功夫@周星驰｜★★★★★ 重温：猩球崛起1-3｜★★★★☆ 在听：without you@Eminem｜★★★★★ 想看：毒液3 </description>
+      <description>几经波折，博客终于是要上线了orz。 第一次有萌生搭建博客的经历，是在去年(2023)中旬吧，当时协会里面说是要大家伙一起做博客系统，然后就搭</description>
     </item>
   </channel>
 </rss>
