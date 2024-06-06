@@ -14,3 +14,22 @@ searchHidden = false # 该页面可以被搜索到
 showbreadcrumbs = true #顶部显示当前路径
 mermaid = true
 +++
+## me
+
+
+## hobbie
+- 培养与IT技术无关的兴趣
+
+## 信念
+- 守时
+- 保持善良
+- 少说多做
+- 非暴力沟通
+- 理性思考
+- 坚持运动
+
+## this blog
+
+## devices
+
+## 
