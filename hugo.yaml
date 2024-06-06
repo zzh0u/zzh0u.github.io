@@ -127,9 +127,6 @@ menu:
       name: tags
       url: /tags
       weight: 20
-    - identifier: about
-      name: about
-      url: /about
     - identifier: rss
       name: rss
       url: /index.xml
