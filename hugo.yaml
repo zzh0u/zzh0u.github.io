@@ -77,7 +77,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: 请洒潘江，各倾陆海云尔3
+    Content: 请洒潘江,各倾陆海云尔3
 
   socialIcons:
     - name: github
@@ -130,6 +130,9 @@ menu:
     - identifier: about
       name: about
       url: /about
+    - identifier: rss
+      name: rss
+      url: /index.xml
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 markup:
