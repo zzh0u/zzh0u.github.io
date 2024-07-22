@@ -46,7 +46,7 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Sun, 02 Jun 2024 20:58:45 +0800</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>about me 高强度逛博客 擅长用Google和ChatGPT 净是坏心眼，算半个好人 马甲比较多 信念 守时 保持善良 少说多做 非暴力沟通 坚持运动git</description>
+      <description>你好 可以叫我周末 擅长用Google和ChatGPT 净是坏心眼，算半个好人</description>
     </item>
     <item>
       <title>博客搭建历程</title>
@@ -61,6 +61,13 @@
       <pubDate>Tue, 28 May 2024 13:47:41 +0800</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>黑羊-卡尔维诺 从前有个国家，里面人人是贼。 一到傍晚，他们手持万能钥匙和遮光灯笼出门，走到邻居家里行窃。破晓时分，他们提着偷来的东西回到家里，</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/%E8%A8%80%E8%AE%BA/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/%E8%A8%80%E8%AE%BA/</guid>
+      <description>2024年 7月22日 周一 程序员有巴甫洛夫反应：向他们提出一个问题，他们就会开始尝试解决它。 --科技爱好者周刊（第 308 期）</description>
     </item>
   </channel>
 </rss>

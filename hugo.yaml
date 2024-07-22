@@ -124,15 +124,15 @@ menu:
       url: /言论/
       weight: 10
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags
       weight: 20
     - identifier: rss
-      name: rss
+      name: RSS
       url: /index.xml
       weight: 30
     - identifier: about
-      name: about
+      name: About
       url: /about
       weight: 40
 

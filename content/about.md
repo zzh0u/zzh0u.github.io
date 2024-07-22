@@ -10,15 +10,7 @@ searchHidden = false # 该页面可以被搜索到
 showbreadcrumbs = false #顶部显示当前路径
 mermaid = true
 +++
-## about me
-- 高强度逛博客
+## 你好
+- 可以叫我周末
 - 擅长用Google和ChatGPT
 - 净是坏心眼，算半个好人
-- 马甲比较多
-
-## 信念
-- 守时
-- 保持善良
-- 少说多做
-- 非暴力沟通
-- 坚持运动git
