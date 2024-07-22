@@ -10,17 +10,15 @@ searchHidden = false # 该页面可以被搜索到
 showbreadcrumbs = false #顶部显示当前路径
 mermaid = true
 +++
-## me
-- 大学生(即将找工作版)
+## about me
 - 高强度逛博客
 - 擅长用Google和ChatGPT
-- 培养一些和专业之外的爱好
 - 净是坏心眼，算半个好人
+- 马甲比较多
 
 ## 信念
 - 守时
 - 保持善良
 - 少说多做
 - 非暴力沟通
-- 理性思考
 - 坚持运动git

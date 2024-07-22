@@ -119,9 +119,9 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: 言论
+      name: 言论
+      url: /言论/
       weight: 10
     - identifier: tags
       name: tags
@@ -130,6 +130,11 @@ menu:
     - identifier: rss
       name: rss
       url: /index.xml
+      weight: 30
+    - identifier: about
+      name: about
+      url: /about
+      weight: 40
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 markup:
