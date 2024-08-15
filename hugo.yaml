@@ -119,9 +119,9 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: 言论
-      name: 言论
-      url: /言论/
+    - identifier: Dia
+      name: Dia
+      url: /Dia/
       weight: 10
     - identifier: tags
       name: Tags
