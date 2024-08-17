@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ifconfig on zzh0u&#39;s blog</title>
+    <link>http://localhost:1313/tags/ifconfig/</link>
+    <description>Recent content in Ifconfig on zzh0u&#39;s blog</description>
+    <image>
+      <title>zzh0u&#39;s blog</title>
+      <url>http://localhost:1313/static/DS.jpg</url>
+      <link>http://localhost:1313/static/DS.jpg</link>
+    </image>
+    <generator>Hugo -- 0.125.3</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 17 Aug 2024 16:54:56 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ifconfig/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ifconfig输出</title>
+      <link>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/ifconfig-%E8%BE%93%E5%87%BA/</link>
+      <pubDate>Sat, 17 Aug 2024 16:54:56 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/ifconfig-%E8%BE%93%E5%87%BA/</guid>
+      <description>ifconfig, interfaces</description>
+    </item>
+  </channel>
+</rss>

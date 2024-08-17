@@ -1,7 +1,7 @@
 +++
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 date = {{ .Date }}
-lastmod: {{ .Date }}
+lastmod = {{ .Date }}
 draft = true
 author = ["zzh0u"]
 tags = [""]
