@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.125.3</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 27 Aug 2024 10:16:32 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 12 Sep 2024 15:12:34 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>写题记录-锤子剪刀布</title>
+      <link>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/%E5%86%99%E9%A2%98%E8%AE%B0%E5%BD%95-%E9%94%A4%E5%AD%90%E5%89%AA%E5%88%80%E5%B8%83/</link>
+      <pubDate>Thu, 12 Sep 2024 15:12:34 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/%E5%86%99%E9%A2%98%E8%AE%B0%E5%BD%95-%E9%94%A4%E5%AD%90%E5%89%AA%E5%88%80%E5%B8%83/</guid>
+      <description>PAT 乙级真题练习——锤子剪刀布</description>
+    </item>
     <item>
       <title>apt &amp; apt Get</title>
       <link>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/apt--apt-get/</link>
@@ -88,7 +95,7 @@
       <link>http://localhost:1313/dia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/dia/</guid>
-      <description>2024年 8月15日 周四 Mysql 切换用户居然只能退出再重新登录，以前没注意到过，有点麻烦的👿 8月6日 周二 心理分析不做道德评价 7月22日 周一 程序员有</description>
+      <description>2024年 9月9日 周一 因为是同性，所以有很多用友情度过的爱情，因为是异性，有很多误以为是爱情的瞬间。 9月5日 周四 男人和女人，要么在所谓的做爱</description>
     </item>
   </channel>
 </rss>
