@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.125.3</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 12 Sep 2024 15:12:34 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 14 Sep 2024 23:35:18 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>写题记录 卖月饼</title>
+      <link>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/%E5%86%99%E9%A2%98%E8%AE%B0%E5%BD%95-%E5%8D%96%E6%9C%88%E9%A5%BC/</link>
+      <pubDate>Sat, 14 Sep 2024 23:35:18 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/%E5%86%99%E9%A2%98%E8%AE%B0%E5%BD%95-%E5%8D%96%E6%9C%88%E9%A5%BC/</guid>
+      <description>PAT 乙级真题练习——卖月饼</description>
+    </item>
     <item>
       <title>写题记录-锤子剪刀布</title>
       <link>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/%E5%86%99%E9%A2%98%E8%AE%B0%E5%BD%95-%E9%94%A4%E5%AD%90%E5%89%AA%E5%88%80%E5%B8%83/</link>
