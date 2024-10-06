@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.125.3</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 14 Sep 2024 23:35:18 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 06 Oct 2024 19:43:34 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golang切片长度</title>
+      <link>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/golang-%E5%88%87%E7%89%87%E9%95%BF%E5%BA%A6/</link>
+      <pubDate>Sun, 06 Oct 2024 19:43:34 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/golang-%E5%88%87%E7%89%87%E9%95%BF%E5%BA%A6/</guid>
+      <description>Golang 中，切片长度超出原数组长度</description>
+    </item>
     <item>
       <title>写题记录 卖月饼</title>
       <link>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/%E5%86%99%E9%A2%98%E8%AE%B0%E5%BD%95-%E5%8D%96%E6%9C%88%E9%A5%BC/</link>
@@ -102,7 +109,7 @@
       <link>http://localhost:1313/dia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/dia/</guid>
-      <description>2024年 9月12日 周四 为什么总斗个你死我活呢？为什么不各行其是岁月静好呢？不行的，不被选择的苦楚旁人看不到，旁人只会觉得哭天抢地才是苦，不</description>
+      <description>2024年 10月6日 周日 朋友问我：回家之后每天出去社交不累吗？ 我反问：为什么会累啊？和朋友很开心，不需要那么敏感；不需要时刻注意措辞，我一般</description>
     </item>
   </channel>
 </rss>
