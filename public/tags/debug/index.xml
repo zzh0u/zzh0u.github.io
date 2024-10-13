@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.125.3</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 30 Jul 2024 14:56:43 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 06 Oct 2024 19:43:34 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/debug/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golang切片长度</title>
+      <link>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/golang-%E5%88%87%E7%89%87%E9%95%BF%E5%BA%A6/</link>
+      <pubDate>Sun, 06 Oct 2024 19:43:34 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/golang-%E5%88%87%E7%89%87%E9%95%BF%E5%BA%A6/</guid>
+      <description>Golang 中，切片长度超出原数组长度</description>
+    </item>
     <item>
       <title>Golang 切片中删除元素</title>
       <link>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/golang%E5%88%87%E7%89%87%E4%B8%AD%E5%88%A0%E9%99%A4%E5%85%83%E7%B4%A0/</link>

@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.125.3</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 06 Oct 2024 19:43:34 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 13 Oct 2024 09:00:43 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git基本流程</title>
+      <link>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/git-%E5%9F%BA%E6%9C%AC%E6%B5%81%E7%A8%8B/</link>
+      <pubDate>Sun, 13 Oct 2024 09:00:43 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/git-%E5%9F%BA%E6%9C%AC%E6%B5%81%E7%A8%8B/</guid>
+      <description>Git 是一个版本控制系统，帮助用户在项目中追踪文件修改，并在需要时能够还原到之前操作。本文介绍了 Git 的基本流程，包括初始化、添加、提交、推送、拉取</description>
+    </item>
     <item>
       <title>Golang切片长度</title>
       <link>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/golang-%E5%88%87%E7%89%87%E9%95%BF%E5%BA%A6/</link>
