@@ -17,3 +17,12 @@ searchHidden = false # 该页面可以被搜索到
 showbreadcrumbs = true #顶部显示当前路径
 mermaid = true
 +++
+
+
+## 书影音
+
+- 书
+
+- 电影
+
+- 音乐

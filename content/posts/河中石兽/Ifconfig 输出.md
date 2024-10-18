@@ -1,5 +1,5 @@
 +++
-title = 'Ifconfig输出'
+title = 'Ifconfig 输出'
 date = 2024-08-17T16:54:56+08:00
 draft = false 
 author = ["zzh0u"]

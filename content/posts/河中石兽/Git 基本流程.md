@@ -1,5 +1,5 @@
 +++
-title = 'Git基本流程'
+title = 'Git 基本流程'
 date = 2024-10-13T09:00:43+08:00
 
 draft = false
