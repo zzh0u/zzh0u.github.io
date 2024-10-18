@@ -21,21 +21,21 @@
       <description>原文链接：https://world.hey.com/dhh/why-don-t-more-people-use-linux-33b75f5</description>
     </item>
     <item>
-      <title>Git基本流程</title>
+      <title>Git 基本流程</title>
       <link>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/git-%E5%9F%BA%E6%9C%AC%E6%B5%81%E7%A8%8B/</link>
       <pubDate>Sun, 13 Oct 2024 09:00:43 +0800</pubDate>
       <guid>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/git-%E5%9F%BA%E6%9C%AC%E6%B5%81%E7%A8%8B/</guid>
       <description>介绍了 Git 这一版本控制系统的基本使用流程，包括初始化代码库、添加文件、提交更改以及不同的版本回退操作。</description>
     </item>
     <item>
-      <title>Golang切片长度</title>
+      <title>Golang 切片长度</title>
       <link>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/golang-%E5%88%87%E7%89%87%E9%95%BF%E5%BA%A6/</link>
       <pubDate>Sun, 06 Oct 2024 19:43:34 +0800</pubDate>
       <guid>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/golang-%E5%88%87%E7%89%87%E9%95%BF%E5%BA%A6/</guid>
       <description>Golang 中，切片长度超出原数组长度</description>
     </item>
     <item>
-      <title>写题记录 卖月饼</title>
+      <title>写题记录-卖月饼</title>
       <link>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/%E5%86%99%E9%A2%98%E8%AE%B0%E5%BD%95-%E5%8D%96%E6%9C%88%E9%A5%BC/</link>
       <pubDate>Sat, 14 Sep 2024 23:35:18 +0800</pubDate>
       <guid>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/%E5%86%99%E9%A2%98%E8%AE%B0%E5%BD%95-%E5%8D%96%E6%9C%88%E9%A5%BC/</guid>
@@ -56,7 +56,7 @@
       <description>之前用 Ubuntu 做实验的时候，总要提前安装很多包，然后就会用到包管理工具。继而就会了解到有 apt 和 apt-get 两个命令，出与知其所以然（水一篇博客）的想法，我去搜了一下他们的区别。</description>
     </item>
     <item>
-      <title>Ifconfig输出</title>
+      <title>Ifconfig 输出</title>
       <link>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/ifconfig-%E8%BE%93%E5%87%BA/</link>
       <pubDate>Sat, 17 Aug 2024 16:54:56 +0800</pubDate>
       <guid>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/ifconfig-%E8%BE%93%E5%87%BA/</guid>
@@ -64,9 +64,9 @@
     </item>
     <item>
       <title>Golang 切片中删除元素</title>
-      <link>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/golang%E5%88%87%E7%89%87%E4%B8%AD%E5%88%A0%E9%99%A4%E5%85%83%E7%B4%A0/</link>
+      <link>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/golang-%E5%88%87%E7%89%87%E4%B8%AD%E5%88%A0%E9%99%A4%E5%85%83%E7%B4%A0/</link>
       <pubDate>Tue, 30 Jul 2024 14:56:43 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/golang%E5%88%87%E7%89%87%E4%B8%AD%E5%88%A0%E9%99%A4%E5%85%83%E7%B4%A0/</guid>
+      <guid>http://localhost:1313/posts/%E6%B2%B3%E4%B8%AD%E7%9F%B3%E5%85%BD/golang-%E5%88%87%E7%89%87%E4%B8%AD%E5%88%A0%E9%99%A4%E5%85%83%E7%B4%A0/</guid>
       <description>有关在切片中删除元素时遇到的 Bug 以及解决方案</description>
     </item>
     <item>
@@ -102,7 +102,7 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Sun, 02 Jun 2024 20:58:45 +0800</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>你好 可以叫我周末 擅长用Google和ChatGPT 净是坏心眼，算半个好人 有关文件夹 河中石兽 出自初中语文书，讲的是作者对一知半解而又自以为是之</description>
+      <description>你好 可以叫我周末 擅长用Google和ChatGPT 净是坏心眼，算半个好人</description>
     </item>
     <item>
       <title>博客搭建历程</title>
