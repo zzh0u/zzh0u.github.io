@@ -9,16 +9,26 @@
       <url>http://localhost:1313/static/DS.jpg</url>
       <link>http://localhost:1313/static/DS.jpg</link>
     </image>
-    <generator>Hugo -- 0.125.3</generator>
+    <generator>Hugo -- 0.136.5</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 16 Oct 2024 12:15:30 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2024 10:25:33 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>谁谋杀了我们的游戏</title>
+      <link>http://localhost:1313/posts/%E8%B0%81%E8%B0%8B%E6%9D%80%E4%BA%86%E6%88%91%E4%BB%AC%E7%9A%84%E6%B8%B8%E6%88%8F/</link>
+      <pubDate>Wed, 30 Oct 2024 10:25:33 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E8%B0%81%E8%B0%8B%E6%9D%80%E4%BA%86%E6%88%91%E4%BB%AC%E7%9A%84%E6%B8%B8%E6%88%8F/</guid>
+      <description>谁谋杀了我们的游戏</description>
+    </item>
     <item>
       <title>[译]为什么没有更多人使用 Linux</title>
       <link>http://localhost:1313/posts/%E8%A5%BF%E5%AD%A6%E4%B8%9C%E6%B8%90/%E8%AF%91%E4%B8%BA%E4%BB%80%E4%B9%88%E6%B2%A1%E6%9C%89%E6%9B%B4%E5%A4%9A%E4%BA%BA%E4%BD%BF%E7%94%A8-linux/</link>
       <pubDate>Wed, 16 Oct 2024 12:15:30 +0800</pubDate>
       <guid>http://localhost:1313/posts/%E8%A5%BF%E5%AD%A6%E4%B8%9C%E6%B8%90/%E8%AF%91%E4%B8%BA%E4%BB%80%E4%B9%88%E6%B2%A1%E6%9C%89%E6%9B%B4%E5%A4%9A%E4%BA%BA%E4%BD%BF%E7%94%A8-linux/</guid>
-      <description>原文链接：https://world.hey.com/dhh/why-don-t-more-people-use-linux-33b75f5</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;原文链接：&lt;a href=&#34;https://world.hey.com/dhh/why-don-t-more-people-use-linux-33b75f53&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;https://world.hey.com/dhh/why-don-t-more-people-use-linux-33b75f53&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;几周前，我看到一条&lt;a href=&#34;https://x.com/yacineMTB/status/1825361755133952326&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;推文&lt;/a&gt;问：“如果 Linux 这么好，为什么更多人不使用它？”这是个很公平的问题！乍一看似乎成立，但稍加思考后就会发现并非如此。Linux 是免费的，那为什么没有被广泛采用呢？我的回答是：&lt;/p&gt;</description>
     </item>
     <item>
       <title>Git 基本流程</title>
@@ -102,14 +112,18 @@
       <link>http://localhost:1313/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%8E%86%E7%A8%8B/</link>
       <pubDate>Sat, 01 Jun 2024 11:39:43 +0800</pubDate>
       <guid>http://localhost:1313/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%8E%86%E7%A8%8B/</guid>
-      <description>几经波折，博客终于是要上线了orz。 第一次有萌生搭建博客的经历，是在去年(2023)中旬吧，当时协会里面说是要大家伙一起做博客系统，然后就搭</description>
+      <description>&lt;p&gt;几经波折，博客终于是要上线了orz。&lt;/p&gt;
+&lt;p&gt;第一次有萌生搭建博客的经历，是在去年(2023)中旬吧，当时&lt;a href=&#34;https://nbtca.space/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;协会&lt;/a&gt;里面说是要大家伙一起做博客系统，然后就搭了一个，然后就没有然后了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Tue, 28 May 2024 13:47:41 +0800</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>黑羊-卡尔维诺 从前有个国家，里面人人是贼。 一到傍晚，他们手持万能钥匙和遮光灯笼出门，走到邻居家里行窃。破晓时分，他们提着偷来的东西回到家里，</description>
+      <description>&lt;h1 id=&#34;黑羊-卡尔维诺&#34;&gt;黑羊-卡尔维诺&lt;/h1&gt;
+&lt;hr&gt;
+&lt;p&gt;　从前有个国家，里面人人是贼。&lt;/p&gt;
+&lt;p&gt;　一到傍晚，他们手持万能钥匙和遮光灯笼出门，走到邻居家里行窃。破晓时分，他们提着偷来的东西回到家里，总能发现自己家也失窃了。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
