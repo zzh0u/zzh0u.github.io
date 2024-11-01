@@ -15,3 +15,4 @@ mermaid = true
 - 可以叫我周末
 - 擅长用Google和ChatGPT
 - 净是坏心眼，算半个好人
+- 喜欢挑战数独（sudoku）
