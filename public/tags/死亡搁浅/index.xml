@@ -15,9 +15,9 @@
     <atom:link href="http://localhost:1313/tags/%E6%AD%BB%E4%BA%A1%E6%90%81%E6%B5%85/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>死亡搁浅</title>
-      <link>http://localhost:1313/posts/game/%E6%AD%BB%E4%BA%A1%E6%90%81%E6%B5%85/</link>
+      <link>http://localhost:1313/posts/%E7%8E%A9%E5%8B%BF%E4%B8%A7%E5%BF%97/%E6%AD%BB%E4%BA%A1%E6%90%81%E6%B5%85/</link>
       <pubDate>Tue, 02 Jul 2024 23:32:17 +0800</pubDate>
-      <guid>http://localhost:1313/posts/game/%E6%AD%BB%E4%BA%A1%E6%90%81%E6%B5%85/</guid>
+      <guid>http://localhost:1313/posts/%E7%8E%A9%E5%8B%BF%E4%B8%A7%E5%BF%97/%E6%AD%BB%E4%BA%A1%E6%90%81%E6%B5%85/</guid>
       <description>死亡搁浅</description>
     </item>
   </channel>
