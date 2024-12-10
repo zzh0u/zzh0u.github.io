@@ -6,7 +6,7 @@ author: 'zzh0u'
 tags: ["技术","Golang","写题记录"]
 ---
 
-原题地址：[https://www.nowcoder.com/pat/6/problem/4044](https://www.nowcoder.com/pat/6/problem/4044)
+> 原题地址：[https://www.nowcoder.com/pat/6/problem/4044](https://www.nowcoder.com/pat/6/problem/4044)
 
 题目相对简单，给出了输入轮次 `N`，只需要按照题目所描述的逻辑逐个实现即可。
 
