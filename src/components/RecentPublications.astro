@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 import FormattedDate from "./FormattedDate.astro";
 import TagLink from "./TagLink.astro";
 
-const posts = await getCollection("blog");
+// const posts = await getCollection("blog");
 let numberOfPostsToDisplay = 5;
 // let recentPosts = posts.slice(0, numberOfPostsToDisplay);
 
@@ -11,9 +11,15 @@ let numberOfPostsToDisplay = 5;
 const allPosts = await getCollection("blog");
 
 // 逆序文章列表，使得最新的文章排在前面
-allPosts.reverse();
+// allPosts.reverse();
 
-let recentPosts = allPosts.slice(0, numberOfPostsToDisplay);
+console.log(allPosts.map(item=>item.data));
+
+let recentPosts = allPosts.sort((a,b)=>{
+  return new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime();
+}).slice(0, numberOfPostsToDisplay);
+console.log(recentPosts.map(item=>item.data.title));
+
 ---
 
 <div class="px-4 md:px-16 flex flex-col gap-4 mt-16">
