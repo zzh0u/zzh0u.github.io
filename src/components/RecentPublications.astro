@@ -10,12 +10,12 @@ let numberOfPostsToDisplay = 5;
 // 获取整个博客文章集合
 const allPosts = await getCollection("blog");
 
-console.log(allPosts.map(item=>item.data));
+// console.log(allPosts.map(item=>item.data));
 
 let recentPosts = allPosts.sort((a,b)=>{
   return new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime();
 }).slice(0, numberOfPostsToDisplay);
-console.log(recentPosts.map(item=>item.data.title));
+// console.log(recentPosts.map(item=>item.data.title));
 
 ---
 
