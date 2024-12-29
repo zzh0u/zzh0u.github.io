@@ -10,9 +10,6 @@ let numberOfPostsToDisplay = 5;
 // 获取整个博客文章集合
 const allPosts = await getCollection("blog");
 
-// 逆序文章列表，使得最新的文章排在前面
-// allPosts.reverse();
-
 console.log(allPosts.map(item=>item.data));
 
 let recentPosts = allPosts.sort((a,b)=>{
