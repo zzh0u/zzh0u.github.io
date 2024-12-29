@@ -1,6 +1,7 @@
 html {
-    font-family: 'Reddit Mono', monospace;
+    /* font-family: 'Reddit Mono', monospace; */
     width: 100%;
+    text-align: justify;
 }
 
 a {
@@ -16,4 +17,8 @@ img {
     @apply rounded-lg;
     max-width: 100%;
     height: auto;
+}
+
+.astro-code{
+    border-radius: 10px;
 }
