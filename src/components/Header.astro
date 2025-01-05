@@ -9,7 +9,7 @@ import {
 //   DropdownItems,
 //   DropdownSubmenu,
 } from "astro-navbar";
-// import ThemeIcon from "./ThemeIcon.astro";
+import ThemeIcon from "./ThemeIcon.astro";
 ---
 
 <header class="lg:flex py-4 pt-2 px-4 sm:px-6 xl:px-0 lg:mb-14 w-full">
@@ -27,6 +27,7 @@ import {
 		<li class="flex items-center"><a href="/rss.xml">Rss</a></li>
 		<li class="flex items-center"><a href="/dia">Dia</a></li>
 		<li class="flex items-center"><a href="/tags">Tags</a></li>
+		<ThemeIcon class="w-10 hidden lg:flex" />
         <!-- <li>
 			<Dropdown class="group">
 			  <button class="flex items-center">
