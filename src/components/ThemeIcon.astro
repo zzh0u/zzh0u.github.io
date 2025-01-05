@@ -26,14 +26,14 @@ const props = Astro.props
 <script >
   const buttons = document.querySelectorAll('.switch-theme-button'); 
   buttons.forEach((button) => {
-  button.addEventListener('click', () => {
-    if (localStorage.theme === 'dark') {
-      localStorage.theme = 'light';
-      document.documentElement.classList.remove('dark');
-    } else {
-      localStorage.theme = 'dark';
-      document.documentElement.classList.add('dark');
-    }
+    button.addEventListener('click', () => {
+      if (localStorage.theme === 'dark') {
+        localStorage.theme = 'light';
+        document.documentElement.classList.remove('dark');
+      } else {
+        localStorage.theme = 'dark';
+        document.documentElement.classList.add('dark');
+      }
     })
   });
 </script>
