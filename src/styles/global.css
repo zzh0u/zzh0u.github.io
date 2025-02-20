@@ -4,6 +4,10 @@ html {
     text-align: justify;
 }
 
+body{
+    background-color: #cccccc;
+}
+
 a {
     color: inherit;
     text-decoration: none;
