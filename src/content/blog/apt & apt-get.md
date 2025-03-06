@@ -3,7 +3,7 @@ title: 'apt & apt Get 的细微区别'
 pubDate: 2024-08-27
 description: '之前用 Ubuntu 做实验的时候，总要提前安装很多包，然后就会用到包管理工具。继而就会了解到有 apt 和 apt-get 两个命令，出与知其所以然（水一篇博客）的想法，我去搜了一下他们的区别。'
 author: 'zzh0u'
-tags: ["技术","terminal","Lonux 命令"]
+tags: ["技术","terminal","Linux 命令"]
 ---
 
 apt 和 apt-get 都是帮助我们安装，更新，删除软件包的工具。
