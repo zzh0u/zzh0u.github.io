@@ -78,5 +78,4 @@ func PositiveExponentNum(sign, integerPart, decimalPart string, exponent int) st
     }
     return sign + integerPart + decimalPart + strings.Repeat("0", exponent-len(decimalPart))
 }
-
 ```
