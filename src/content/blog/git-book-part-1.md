@@ -1,5 +1,5 @@
 ---
-title: 'Git 基本流程'
+title: 'Git 基本操作'
 pubDate: 2024-10-13
 description: '介绍了 Git 这一版本控制系统的基本使用流程，包括初始化代码库、添加文件、提交更改以及不同的版本回退操作。'
 author: 'zzh0u'
@@ -9,7 +9,7 @@ tags: ["技术","Git"]
 
 Git 是一个版本控制系统，帮助用户在项目中追踪文件修改，并在需要时能够还原到之前操作。本文介绍了 Git 的基本流程，包括初始化、添加、提交、推送、拉取等操作。
 
-## 初始化
+### 初始化
 
 首先，需要在本地创建一个空文件夹，然后在该文件夹下执行 `git init` 命令，这将创建一个 `.git` 目录，里面包含了 Git 的所有配置信息。然后通过 `touch` 命令新建一个`.txt`文件，并在文件中输入任意内容：
 
@@ -19,7 +19,7 @@ Hamburger
 Coke
 ```
 
-## 第一次 commit
+### 第一次 commit
 
 在 `.txt` 文件中输入内容后，可以执行 `git status` 命令查看当前文件状态：
 
@@ -30,7 +30,7 @@ No commits yet
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-	text.txt
+  text.txt
 
 nothing added to commit but untracked files present (use "git add" to track)
 ```
@@ -44,7 +44,7 @@ No commits yet
 
 Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
-	new file:   text.txt
+  new file:   text.txt
 ```
 
 可以看到，文件已被添加到暂存区，等待提交。这里引出第二种状态：**暂存状态（Staged）**。暂存区（Stage）是 Git 用来暂存文件的地方。现在我们需要执行 `git commit -m "first commit"` 命令提交文件，`-m` 参数后面是提交信息。也可以不加参数，直接执行 `git commit` 命令，这时会打开默认编辑器，输入提交信息。这个时候再次执行 `git status` 命令，可以看到：
@@ -56,7 +56,7 @@ nothing to commit, working tree clean
 
 可以看到，暂存区已经清空，工作区也没有未提交的修改。这个时候，所有的文件都属于第三种状态：**已提交状态（Committed）**。至此，第一次 `commit` 圆满完成。
 
-## 你可以吃后悔药
+### 你可以吃后悔药
 
 首先，我们现在自己的仓库多提交了几次 `commit` 之后，内容如下：
 
@@ -105,7 +105,7 @@ On branch main
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-	modified:   text.txt
+  modified:   text.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
@@ -127,7 +127,7 @@ Coke
 
 我们又回到了指定提交时的文件初始状态。所有在那次 `commit` 之后对文件所做的修改都被删除。当我们检查提交日志时，我们将只看到第一次 `commit`。
 
-## 另类的后悔药
+### 另类的后悔药
 
 我已经重新回到了刚提交过三次 `commit` 后的状态：
 
@@ -156,7 +156,7 @@ d3b86b2 third commit
 
 想必聪明的读者看到这里已经懂了，`git reset` 会直接回到某个 `commit` 的状态，并且直接删除之后的所有提交记录；而 `git revert` 则会创建一个新的提交，保留之前的提交记录，并记录撤销操作。不过虽然 `git revert` 很方便，但是也要注意不要滥用，它会引入新的提交记录，在团队合作中可能会造成混乱。
 
-## Ps
+### Ps
 
 1. 推荐阅读：[freeCodeCamp](https://www.freecodecamp.org/chinese/news/git-reverting-to-previous-commit-how-to-revert-to-last-commit/)
 2. 大家可以试试 `git reset --soft` 命令，看看它是怎么回事。
@@ -164,7 +164,7 @@ d3b86b2 third commit
 4. 远程仓库的操作，先挖坑吧，以后有时间再写:-）
 5. 硬重置后的恢复，又挖一个坑orz
 
-## 书影音
+### 书影音
 
 - 电影
   - 看完：为黛西小姐开车｜★★★★☆
