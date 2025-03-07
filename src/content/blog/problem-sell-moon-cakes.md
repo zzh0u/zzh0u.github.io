@@ -14,57 +14,57 @@ tags: ["技术","Golang","写题记录"]
 package main
 
 import (
-	"fmt"
-	"sort"
+    "fmt"
+    "sort"
 )
 
 type Mooncake struct {
-	univalent float64
-	stock     float64
-	price     float64
+    univalent float64
+    stock     float64
+    price     float64
 }
 
 func main() {
-	var species, need int
-	n, _ := fmt.Scan(&species, &need)
+    var species, need int
+    n, _ := fmt.Scan(&species, &need)
 
-	if n != 2 {
-		return
-	}
+    if n != 2 {
+        return
+    }
 
-	mooncakes := make([]Mooncake, species)
+    mooncakes := make([]Mooncake, species)
 
-	for i := 0; i < species; i++ {
-		fmt.Scan(&mooncakes[i].stock)
-	}
-	for i := 0; i < species; i++ {
-		fmt.Scan(&mooncakes[i].price)
-		mooncakes[i].univalent = mooncakes[i].price / mooncakes[i].stock
-	}
+    for i := 0; i < species; i++ {
+        fmt.Scan(&mooncakes[i].stock)
+    }
+    for i := 0; i < species; i++ {
+        fmt.Scan(&mooncakes[i].price)
+        mooncakes[i].univalent = mooncakes[i].price / mooncakes[i].stock
+    }
 
-	sort.Slice(mooncakes, func(i, j int) bool {
-		return mooncakes[i].univalent > mooncakes[j].univalent
-	})
+    sort.Slice(mooncakes, func(i, j int) bool {
+        return mooncakes[i].univalent > mooncakes[j].univalent
+    })
 
-	var Profit float64 = 0
-	var remainDemand = float64(need)
+    var Profit float64 = 0
+    var remainDemand = float64(need)
 
-	for i := range mooncakes {
-		if remainDemand == 0 {
-			break
-		}
-		// sellAmount := min(mooncakes[i].stock, float64(remainDemand))
-		// Profit += sellAmount * mooncakes[i].univalent
-		// remainDemand -= int(sellAmount)
-		if remainDemand >= mooncakes[i].stock {
-			Profit += mooncakes[i].price
-			remainDemand -= mooncakes[i].stock
-		} else if remainDemand < mooncakes[i].stock {
-			Profit += mooncakes[i].univalent * remainDemand
-			remainDemand = 0
-		}
-	}
-	fmt.Printf("%.2f\n", Profit)
+    for i := range mooncakes {
+        if remainDemand == 0 {
+            break
+        }
+        // sellAmount := min(mooncakes[i].stock, float64(remainDemand))
+        // Profit += sellAmount * mooncakes[i].univalent
+        // remainDemand -= int(sellAmount)
+        if remainDemand >= mooncakes[i].stock {
+            Profit += mooncakes[i].price
+            remainDemand -= mooncakes[i].stock
+        } else if remainDemand < mooncakes[i].stock {
+            Profit += mooncakes[i].univalent * remainDemand
+            remainDemand = 0
+        }
+    }
+    fmt.Printf("%.2f\n", Profit)
 
 }
 

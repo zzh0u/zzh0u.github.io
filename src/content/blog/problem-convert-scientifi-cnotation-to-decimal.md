@@ -56,28 +56,27 @@ if sign == "+" {
 return ""
 
 func formatNumber(sign, integerPart, decimalPart string, exponent int) string {
-	if exponent < 0 {
-		return NegativeExponentNum(sign, integerPart, decimalPart, exponent)
-	}
-	return PositiveExponentNum(sign, integerPart, decimalPart, exponent)
+    if exponent < 0 {
+        return NegativeExponentNum(sign, integerPart, decimalPart, exponent)
+    }
+    return PositiveExponentNum(sign, integerPart, decimalPart, exponent)
 }
 
 func NegativeExponentNum(sign, integerPart, decimalPart string, exponent int) string {
-	move := len(integerPart) + exponent
-	if move > 0 {
-		return sign + integerPart[:move] + "." + integerPart[move:] + decimalPart
-	}
+    move := len(integerPart) + exponent
+    if move > 0 {
+        return sign + integerPart[:move] + "." + integerPart[move:] + decimalPart
+    }
   // 这里 move 为非正数，Repeat 只接收非负数，move == 0 时没有意义。
-	zeros := strings.Repeat("0", -move)
-	return sign + "0." + zeros + integerPart + decimalPart
+    zeros := strings.Repeat("0", -move)
+    return sign + "0." + zeros + integerPart + decimalPart
 }
 
 func PositiveExponentNum(sign, integerPart, decimalPart string, exponent int) string {
-	if exponent < len(decimalPart) {
-		return sign + integerPart + "." + decimalPart[:exponent] + decimalPart[exponent:]
-	}
-	return sign + integerPart + decimalPart + strings.Repeat("0", exponent-len(decimalPart))
+    if exponent < len(decimalPart) {
+        return sign + integerPart + "." + decimalPart[:exponent] + decimalPart[exponent:]
+    }
+    return sign + integerPart + decimalPart + strings.Repeat("0", exponent-len(decimalPart))
 }
 
 ```
-

@@ -10,26 +10,26 @@ tags: ["技术","Golang","Debug"]
 
 话不多说，先上代码：
 
-``````go
+```go
 package main
 
 import "fmt"
 
 func main() {
-	a := []int{1, 2, 3, 4, 5, 5, 6, 5, 7, 8, 9, 10}
-	fmt.Println("First Slice: ", a)
+    a := []int{1, 2, 3, 4, 5, 5, 6, 5, 7, 8, 9, 10}
+    fmt.Println("First Slice: ", a)
 
-	for i, value := range a {
-		if value == 5 {
-			a = append(a[:i], a[i+1:]...)
-			fmt.Println("Index of deleted element: ", i)
-			fmt.Println("Slice after delete: ", a)
-		}
-	}
+    for i, value := range a {
+        if value == 5 {
+            a = append(a[:i], a[i+1:]...)
+            fmt.Println("Index of deleted element: ", i)
+            fmt.Println("Slice after delete: ", a)
+        }
+    }
 
-	fmt.Println("Final Slice: ", a)
+    fmt.Println("Final Slice: ", a)
 }
-``````
+```
 
 结果如下：
 
@@ -62,26 +62,26 @@ Final Slice:  [1 2 3 4 5 6 7 8 9 10]
 
 可以新建一个切片，用于存储需要保留的所有元素，最后再给切片 `a` 赋值。
 
-``````go
+```go
 package main
 
 import "fmt"
 
 func main() {
-	a := []int{1, 2, 3, 4, 5, 5, 6, 5, 7, 8, 9, 10}
-	fmt.Println("First Slice: ", a)
+    a := []int{1, 2, 3, 4, 5, 5, 6, 5, 7, 8, 9, 10}
+    fmt.Println("First Slice: ", a)
 
-	var result []int
-	for _, value := range a {
-		if value != 5 {
-			result = append(result, value)
-		}
-	}
+    var result []int
+    for _, value := range a {
+        if value != 5 {
+            result = append(result, value)
+        }
+    }
 
-	a = result
-	fmt.Println("Final Slice: ", a)
+    a = result
+    fmt.Println("Final Slice: ", a)
 }
-``````
+```
 
 这种方法有几个优点：
 
@@ -94,7 +94,7 @@ func main() {
 
 请看代码：
 
-``````go
+```go
 package main
 
 import "fmt"
@@ -113,7 +113,7 @@ func main() {
     a = a[:i]
     fmt.Println("Final Slice: ", a)
 }
-``````
+```
 
 这种方法直接在原切片上做修改，避免了前一种方法中，需要额外新建一个切片而带来可能的内存隐患
 
@@ -121,24 +121,24 @@ func main() {
 
 这种方法比较抽象，从后面往前面遍历，不过正经人应该不会这样写吧🤣
 
-``````go
+```go
 
 package main
 
 import "fmt"
 
 func main() {
-	a := []int{1, 2, 3, 4, 5, 5, 6, 5, 7, 8, 9, 10}
+    a := []int{1, 2, 3, 4, 5, 5, 6, 5, 7, 8, 9, 10}
 
-	for i := len(a) - 1; i >= 0; i-- {
-		if a[i] == 5 {
-			a = append(a[:i], a[i+1:]...)
-		}
-	}
+    for i := len(a) - 1; i >= 0; i-- {
+        if a[i] == 5 {
+            a = append(a[:i], a[i+1:]...)
+        }
+    }
 
-	fmt.Println("Final Slice: ", a)
+    fmt.Println("Final Slice: ", a)
 }
-``````
+```
 
 ### 书影音
 

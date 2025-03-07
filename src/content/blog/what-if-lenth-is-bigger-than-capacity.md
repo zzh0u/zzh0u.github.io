@@ -18,23 +18,23 @@ package main
 import "fmt"
 
 func main() {
-	var arr1 = [...]int{1}
-	var arr2 = [...]int{1}
-	fmt.Println("arr1 的内存地址：", &arr1[0])
-	fmt.Println("arr2 的内存地址：", &arr2[0])
+    var arr1 = [...]int{1}
+    var arr2 = [...]int{1}
+    fmt.Println("arr1 的内存地址：", &arr1[0])
+    fmt.Println("arr2 的内存地址：", &arr2[0])
 
-	sli := arr1[0:1]
-	fmt.Println("sli 的值：", sli)
-	fmt.Println("sli 的内存地址：", &sli[0])
+    sli := arr1[0:1]
+    fmt.Println("sli 的值：", sli)
+    fmt.Println("sli 的内存地址：", &sli[0])
 
-	sli = append(sli, 2, 3, 4, 5)
+    sli = append(sli, 2, 3, 4, 5)
 
-	fmt.Println("——————执行 append 操作后——————")
-	fmt.Println("sli 的值：", sli)
-	fmt.Println("sli 的内存地址：", &sli[0])
+    fmt.Println("——————执行 append 操作后——————")
+    fmt.Println("sli 的值：", sli)
+    fmt.Println("sli 的内存地址：", &sli[0])
 
-	fmt.Println("arr1 的内存地址：", &arr1[0])
-	fmt.Println("arr2 的内存地址：", &arr2[0])
+    fmt.Println("arr1 的内存地址：", &arr1[0])
+    fmt.Println("arr2 的内存地址：", &arr2[0])
 }
 OUTPUT:
 arr1 的内存地址： 0x14000112018
