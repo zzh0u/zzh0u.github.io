@@ -4,9 +4,9 @@ html {
     text-align: justify;
 }
 
-body{
+/* body{
     background-color: #eeeeee;
-}
+} */
 
 a {
     color: inherit;
@@ -19,7 +19,7 @@ a:hover {
 
 img {
     @apply rounded-lg;
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
 }
 
