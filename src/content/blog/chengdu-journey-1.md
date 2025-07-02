@@ -1,6 +1,6 @@
 ---
 title: '周末の巴蜀游记-S1E01'
-pubDate: 2025-06-30
+pubDate: 2025-06-21
 description: ''
 author: 'zzh0u'
 tags: ["旅行","巴蜀"]
