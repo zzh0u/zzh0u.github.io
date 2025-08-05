@@ -3,7 +3,7 @@ title: '[译]为什么没有更多人使用 Linux'
 pubDate: 2024-10-16
 description: '翻译一篇喜欢的文章'
 author: 'david'
-tags: ["翻译"]
+tags: ["翻译","转载","技术","Linux"]
 ---
 > 原文链接：[https://world.hey.com/dhh/why-don-t-more-people-use-linux-33b75f53](https://world.hey.com/dhh/why-don-t-more-people-use-linux-33b75f53)
 

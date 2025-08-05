@@ -3,7 +3,7 @@ title: 'Ifconfig 输出'
 pubDate: 2024-08-17
 description: '简单介绍了 ifconfig 下输出的大部分接口作用'
 author: 'zzh0u'
-tags: ["技术","terminal","Macbook","Ifconfig"]
+tags: ["技术","terminal","Macbook"]
 ---
 
 最近在看本机 ip 的时候，发现 `ifconfig` 输入的 `interface` 有点太多了X(
