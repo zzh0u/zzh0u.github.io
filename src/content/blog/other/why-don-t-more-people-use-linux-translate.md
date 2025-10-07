@@ -5,6 +5,7 @@ description: '翻译一篇喜欢的文章'
 author: 'david'
 tags: ["翻译","转载","技术","Linux"]
 ---
+
 > 原文链接：[https://world.hey.com/dhh/why-don-t-more-people-use-linux-33b75f53](https://world.hey.com/dhh/why-don-t-more-people-use-linux-33b75f53)
 
 几周前，我看到一条[推文](https://x.com/yacineMTB/status/1825361755133952326)问：“如果 Linux 这么好，为什么更多人不使用它？”这是个很合理的问题！乍一看似乎成立，但稍加思考后就会发现并非如此。Linux 是免费的，那为什么没有被广泛采用呢？我的回答是：
