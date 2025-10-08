@@ -10,12 +10,9 @@ import Layout from '../layouts/BlogPost.astro';
 			<h3>💡 一些理念</h3>
 			<ul>
 				<li>人之初，性本恶</li>
-				<li>怀疑人心，信任羁绊</li>
 				<li>相信技术，但不信奉技术</li>
-				<li>科学方法和实证研究是获取知识的最可靠途径</li>
+				<li>坚信科学方法和实证研究是获取知识的最可靠途径</li>
 				<li>理解宗教的正向作用，并对其艺术和历史价值很感兴趣，但不相信宗教</li>
-				<li>随着技术发展，我们会比以往更需要人文、艺术、历史、文化等方面的知识作为锚点</li>
-				<li>在面对复杂的社会和政治问题时，理性和科学的分析是最可靠的工具。</li>
 				<li>宁愿看 1000 字文本也不愿听 60 秒语音</li>
 			</ul>
 		</section>
@@ -34,9 +31,8 @@ import Layout from '../layouts/BlogPost.astro';
 			<h3>👎 讨厌的人</h3>
 			<ul>
 				<li>坚持非黑即白的二极管</li>
-				<li>以 MBTI 或者星座为唯一准则交友的人</li>
+				<li>以 MBTI 或者星座为**唯一**准则交友的人</li>
 				<li>把用户当成傻逼的开发者、认为用户是傻逼结果自己才是傻逼的开发者、以及傻逼</li>
-				<li>认为用繁体字比用简体字更有逼格的人</li>
 				<li>在各种社交软件上寻找「约炮」功能的人</li>
 				<li>通过否认他人获得存在感的人</li>
 				<li>通过论证他人错误来证明自己正确的人</li>
@@ -46,8 +42,8 @@ import Layout from '../layouts/BlogPost.astro';
 		<section class="contact">
 			<h3>🔗 联系我</h3>
 			<ul>
-				<li>个人主页：<a href="https://github.com/zzh0u" target="_blank" rel="noopener noreferrer">https://github.com/zzh0u</a></li>
-				<li>个人博客：<a href="https://zzh0u.github.io/" target="_blank" rel="noopener noreferrer">https://zzh0u.github.io/</a></li>
+				<li>主页：<a href="https://github.com/zzh0u" target="_blank" rel="noopener noreferrer">https://github.com/zzh0u</a></li>
+				<li>博客：<a href="https://zzh0u.github.io/" target="_blank" rel="noopener noreferrer">https://zzh0u.github.io/</a></li>
 				<li>邮件：<a href="mailto:weirong.zhou@outlook.com">weirong.zhou@outlook.com</a></li>
 			</ul>
 		</section>
@@ -99,27 +95,12 @@ import Layout from '../layouts/BlogPost.astro';
 
 		.about-content a {
 			color: var(--accent);
-			text-decoration: none;
 			border-bottom: 1px solid transparent;
 			transition: border-bottom-color 0.3s ease;
 		}
 
 		.about-content a:hover {
 			border-bottom-color: var(--accent);
-		}
-
-		@media (max-width: 768px) {
-			.about-content {
-				padding: 0 1rem;
-			}
-			
-			.about-content h2 {
-				font-size: 1.5rem;
-			}
-			
-			.about-content h3 {
-				font-size: 1.1rem;
-			}
 		}
 	</style>
 </Layout>
