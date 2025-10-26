@@ -49,15 +49,17 @@ posts.forEach((post) => {
             {
               postByYear[parseInt(year)].map((post: Post) => (
               <div class="flex gap-2 justify-between border-b pb-4">
-            <div class="flex flex-col gap-4">
-              <FormattedDate date={post.data.pubDate} />
+            <div class="flex flex-col gap-4 w-full">
               <a class="font-bold text-lg" href={`/blog/${post.slug}`}>
                 {post.data.title}
               </a>
-              <div class="flex gap-2">
-                {post.data.tags?.map((i: string) => {
-                  return <TagLink tag={i} />;
-                })}
+              <div class="flex gap-2 justify-between items-center">
+                <div class="flex gap-2">
+                  {post.data.tags?.map((i: string) => {
+                    return <TagLink tag={i} />;
+                  })}
+                </div>
+                <FormattedDate date={post.data.pubDate} />
               </div>
             </div>
             {/* <a href={`/blog/${post.slug}`}>
