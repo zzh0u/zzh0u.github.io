@@ -1,106 +1,125 @@
 ---
-import Layout from '../layouts/BlogPost.astro';
+import Layout from '../layouts/BlogPost.astro'
 ---
 
-<Layout title="关于我" description="周末的个人介绍" pubDate={new Date('Aug 02 2025')}>
-	<div class="about-content">
-		<h2>你好，我是周末 👋</h2>
-		
-		<section class="beliefs">
-			<h3>💡 一些理念</h3>
-			<ul>
-				<li>人之初，性本恶</li>
-				<li>相信技术，但不信奉技术</li>
-				<li>坚信科学方法和实证研究是获取知识的最可靠途径</li>
-				<li>理解宗教的正向作用，并对其艺术和历史价值很感兴趣，但不相信宗教</li>
-				<li>宁愿看 1000 字文本也不愿听 60 秒语音</li>
-			</ul>
-		</section>
+<Layout
+    title="关于我"
+    description="周末的个人介绍"
+    pubDate={new Date('Aug 02 2025')}
+>
+    <div class="about-content">
+        <h2>你好，我是周末 👋</h2>
 
-		<section class="hobbies">
-			<h3>🎮 爱好</h3>
-			<ul>
-				<li>逛博客，偏爱科技类、人文类、科普类</li>
-				<li>听播客，见上一条</li>
-				<li>长跑，希望 5 km 能够在今年跑进 30 mins</li>
-				<li>阅读，喝酒，音乐，游戏，漫无目的的探索</li>
-			</ul>
-		</section>
+        <section class="beliefs">
+            <h3>💡 一些理念</h3>
+            <ul>
+                <li>人之初，性本恶</li>
+                <li>相信技术，但不信奉技术</li>
+                <li>坚信科学方法和实证研究是获取知识的最可靠途径</li>
+                <li>理解宗教的正向作用，并对其艺术和历史价值很感兴趣，但不相信宗教</li>
+                <li>宁愿看 1000 字文本也不愿听 60 秒语音</li>
+            </ul>
+        </section>
 
-		<section class="dislikes">
-			<h3>👎 讨厌的人</h3>
-			<ul>
-				<li>坚持非黑即白的二极管</li>
-				<li>以 MBTI 或者星座为**唯一**准则交友的人</li>
-				<li>把用户当成傻逼的开发者、认为用户是傻逼结果自己才是傻逼的开发者、以及傻逼</li>
-				<li>在各种社交软件上寻找「约炮」功能的人</li>
-				<li>通过否认他人获得存在感的人</li>
-				<li>通过论证他人错误来证明自己正确的人</li>
-			</ul>
-		</section>
+        <section class="hobbies">
+            <h3>🎮 爱好</h3>
+            <ul>
+                <li>逛博客，偏爱科技类、人文类、科普类</li>
+                <li>听播客，见上一条</li>
+                <li>长跑，希望 5 km 能够在今年跑进 30 mins</li>
+                <li>阅读，喝酒，音乐，游戏，漫无目的的探索</li>
+            </ul>
+        </section>
 
-		<section class="contact">
-			<h3>🔗 联系我</h3>
-			<ul>
-				<li>主页：<a href="https://github.com/zzh0u" target="_blank" rel="noopener noreferrer">https://github.com/zzh0u</a></li>
-				<li>博客：<a href="https://zzh0u.github.io/" target="_blank" rel="noopener noreferrer">https://zzh0u.github.io/</a></li>
-				<li>邮件：<a href="mailto:weirong.zhou@outlook.com">weirong.zhou@outlook.com</a></li>
-			</ul>
-		</section>
-	</div>
+        <section class="dislikes">
+            <h3>👎 讨厌的人</h3>
+            <ul>
+                <li>坚持非黑即白的二极管</li>
+                <li>以 MBTI 或者星座为**唯一**准则交友的人</li>
+                <li>
+                    把用户当成傻逼的开发者、认为用户是傻逼结果自己才是傻逼的开发者、以及傻逼
+                </li>
+                <li>在各种社交软件上寻找「约炮」功能的人</li>
+                <li>通过否认他人获得存在感的人</li>
+                <li>通过论证他人错误来证明自己正确的人</li>
+            </ul>
+        </section>
 
-	<style>
-		.about-content {
-			max-width: 800px;
-			margin: 0 auto;
-			line-height: 1.6;
-		}
+        <section class="contact">
+            <h3>🔗 联系我</h3>
+            <ul>
+                <li>
+                    主页：<a
+                        href="https://github.com/zzh0u"
+                        target="_blank"
+                        rel="noopener noreferrer">https://github.com/zzh0u</a>
+                </li>
+                <li>
+                    博客：<a
+                        href="https://zzh0u.github.io/"
+                        target="_blank"
+                        rel="noopener noreferrer">https://zzh0u.github.io/</a>
+                </li>
+                <li>
+                    邮件：<a href="mailto:weirong.zhou@outlook.com"
+                        >weirong.zhou@outlook.com</a>
+                </li>
+            </ul>
+        </section>
+    </div>
 
-		.about-content h2 {
-			color: var(--accent);
-			margin-bottom: 2rem;
-			font-size: 2rem;
-		}
+    <style>
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
 
-		.about-content section {
-			margin-bottom: 2.5rem;
-		}
+        .about-content h2 {
+            color: var(--accent);
+            margin-bottom: 2rem;
+            font-size: 2rem;
+        }
 
-		.about-content h3 {
-			color: var(--text-color);
-			margin-bottom: 1rem;
-			font-size: 1.3rem;
-			border-bottom: 2px solid var(--accent);
-			padding-bottom: 0.5rem;
-		}
+        .about-content section {
+            margin-bottom: 2.5rem;
+        }
 
-		.about-content ul {
-			list-style-type: none;
-			padding-left: 0;
-		}
+        .about-content h3 {
+            color: var(--text-color);
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 0.5rem;
+        }
 
-		.about-content li {
-			margin-bottom: 0.8rem;
-			padding-left: 1.5rem;
-			position: relative;
-		}
+        .about-content ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
 
-		.about-content li::before {
-			content: "▸";
-			color: var(--accent);
-			position: absolute;
-			left: 0;
-			font-weight: bold;
-		}
+        .about-content li {
+            margin-bottom: 0.8rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
 
-		.about-content a {
-			color: var(--accent);
-			border-bottom: 1px solid transparent;
-			transition: border-bottom-color 0.3s ease;
-		}
+        .about-content li::before {
+            content: '▸';
+            color: var(--accent);
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
 
-		.about-content a:hover {
-			border-bottom-color: var(--accent);
-		}
-	</style>
+        .about-content a {
+            color: var(--accent);
+            border-bottom: 1px solid transparent;
+            transition: border-bottom-color 0.3s ease;
+        }
+
+        .about-content a:hover {
+            border-bottom-color: var(--accent);
+        }
+    </style>
 </Layout>

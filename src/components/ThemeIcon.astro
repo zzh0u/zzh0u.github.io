@@ -4,36 +4,36 @@ const props = Astro.props
 ---
 
 <style>
-.switch-theme-button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  /* justify-content: center; */
-  /* padding: 0.5rem; */
-  /* border-radius: 50%; */
-  transition: background-color 0.3s;
-  margin: 0;
-}
+    .switch-theme-button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        /* padding: 0.5rem; */
+        /* border-radius: 50%; */
+        transition: background-color 0.3s;
+        margin: 0;
+    }
 </style>
 
-<button class={"switch-theme-button pushable " + props.class }>
+<button class={'switch-theme-button pushable ' + props.class}>
     <Icon name="radix-icons:sun" class="w-4 h-4 flex dark:hidden" />
     <Icon name="radix-icons:moon" class="w-4 h-4 dark:flex hidden" />
 </button>
 
-<script >
-  const buttons = document.querySelectorAll('.switch-theme-button'); 
-  buttons.forEach((button) => {
-    button.addEventListener('click', () => {
-      if (localStorage.theme === 'dark') {
-        localStorage.theme = 'light';
-        document.documentElement.classList.remove('dark');
-      } else {
-        localStorage.theme = 'dark';
-        document.documentElement.classList.add('dark');
-      }
+<script>
+    const buttons = document.querySelectorAll('.switch-theme-button')
+    buttons.forEach((button) => {
+        button.addEventListener('click', () => {
+            if (localStorage.theme === 'dark') {
+                localStorage.theme = 'light'
+                document.documentElement.classList.remove('dark')
+            } else {
+                localStorage.theme = 'dark'
+                document.documentElement.classList.add('dark')
+            }
+        })
     })
-  });
 </script>

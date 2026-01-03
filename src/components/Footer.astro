@@ -1,11 +1,11 @@
 ---
-import { Icon } from "astro-iconify";
+import { Icon } from 'astro-iconify'
 
-const today = new Date();
+const today = new Date()
 ---
 
 <footer class="mt-20 md:mt-36 mx-4">
-  <!-- <div class="flex gap-4 border-b pb-8 mb-5 flex-col lg:flex-row  ">
+    <!-- <div class="flex gap-4 border-b pb-8 mb-5 flex-col lg:flex-row  ">
     <div class="w-full lg:w-2/3">
       <h1 class="text-lg font-bold">Void Theme</h1>
       <p class="text-sm">
@@ -44,7 +44,12 @@ const today = new Date();
       </div>
     </div>
   </div> -->
-  <p class="text-sm font-medium mb-10">
-    &copy; {today.getFullYear()} All rights reserved under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0</a>
-  </p>
+    <p class="text-sm font-medium mb-10">
+        &copy; {today.getFullYear()} All rights reserved under <a
+            href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
+            target="_blank"
+            rel="license noopener noreferrer"
+            style="display:inline-block;">CC BY-NC-SA 4.0</a
+        >
+    </p>
 </footer>

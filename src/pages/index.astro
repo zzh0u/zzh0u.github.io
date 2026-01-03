@@ -1,27 +1,28 @@
 ---
-import BaseHead from "../components/BaseHead.astro";
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
+import BaseHead from '../components/BaseHead.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
 // import Navigation from '../components/Navigation.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
-import RecentPublications from "../components/RecentPublications.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts'
+import RecentPublications from '../components/RecentPublications.astro'
 ---
 
 <!doctype html>
 <html lang="en">
-  <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    <!-- <Navigation /> -->
-  </head>
-  <body class="w-full max-w-screen-md mx-auto my-4 dark:bg-neutral-800 dark:text-neutral-300 transition-colors duration-300" >
-    <Header />
-    <main class="flex flex-col justify-center">
-      <div class="px-4 md:px-16 flex flex-col gap-4 md:my-10">
-        <h1 class="text-2xl md:text-5xl w-full">Hi there👋</h1>
-      </div>
-	  <RecentPublications />
-	      </main>
-    <Footer />
-  </body>
+    <head>
+        <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+        <!-- <Navigation /> -->
+    </head>
+    <body
+        class="w-full max-w-screen-md mx-auto my-4 dark:bg-neutral-800 dark:text-neutral-300 transition-colors duration-300"
+    >
+        <Header />
+        <main class="flex flex-col justify-center">
+            <div class="px-4 md:px-16 flex flex-col gap-4 md:my-10">
+                <h1 class="text-2xl md:text-5xl w-full">Hi there👋</h1>
+            </div>
+            <RecentPublications />
+        </main>
+        <Footer />
+    </body>
 </html>
-

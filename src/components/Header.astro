@@ -2,51 +2,87 @@
 import { Icon } from 'astro-iconify'
 
 import {
-  Astronav,
-  MenuItems,
-  MenuIcon,
-  Dropdown,
-  DropdownItems,
-} from "astro-navbar";
-import ThemeIcon from "./ThemeIcon.astro";
+    Astronav,
+    MenuItems,
+    MenuIcon,
+    Dropdown,
+    DropdownItems,
+} from 'astro-navbar'
+import ThemeIcon from './ThemeIcon.astro'
 ---
 
 <header class="lg:flex py-4 pt-2 px-4 sm:px-6 xl:px-0 lg:mb-14 w-full">
-  <Astronav>
-    <div class="flex w-full justify-between items-center border-b lg:border-none pb-4 lg:pb-0">
-      <a class="font-semibold text-xl flex gap-2 items-center group" href="/">/</a>
-      <div class="flex items-center gap-4">
-        <li class="list-none">
-          <Dropdown class="group">
-            <button class="flex items-center gap-1 hover:text-gray-600 dark:hover:text-gray-300 transition-colors">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="currentColor"
-                class="w-6 h-6">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
-              </svg>
-            </button>
-            <DropdownItems class="relative">
-              <div class="absolute top-2 right-0 bg-white dark:bg-neutral-800 border border-gray-200 dark:border-neutral-700 rounded-lg shadow-lg min-w-[150px] py-2 z-50">
-                <ul class="flex flex-col">
-                  <li><a href="/about" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-neutral-700 transition-colors">About</a></li>
-                  <li><a href="/blog" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-neutral-700 transition-colors">Blog</a></li>
-                  <li><a href="/rss.xml" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-neutral-700 transition-colors">RSS</a></li>
-                  <li><a href="/dia" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-neutral-700 transition-colors">Dia</a></li>
-                  <li><a href="/tags" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-neutral-700 transition-colors">Tags</a></li>
-                </ul>
-              </div>
-            </DropdownItems>
-          </Dropdown>
-        </li>
-        <ThemeIcon/>
-      </div>
-    </div>
-  </Astronav>
+    <Astronav>
+        <div
+            class="flex w-full justify-between items-center border-b lg:border-none pb-4 lg:pb-0"
+        >
+            <a
+                class="font-semibold text-xl flex gap-2 items-center group"
+                href="/">/</a
+            >
+            <div class="flex items-center gap-4">
+                <li class="list-none">
+                    <Dropdown class="group">
+                        <button
+                            class="flex items-center gap-1 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="2"
+                                stroke="currentColor"
+                                class="w-6 h-6"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                                ></path>
+                            </svg>
+                        </button>
+                        <DropdownItems class="relative">
+                            <div
+                                class="absolute top-2 right-0 bg-white dark:bg-neutral-800 border border-gray-200 dark:border-neutral-700 rounded-lg shadow-lg min-w-[150px] py-2 z-50"
+                            >
+                                <ul class="flex flex-col">
+                                    <li>
+                                        <a
+                                            href="/about"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-neutral-700 transition-colors"
+                                            >About</a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="/blog"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-neutral-700 transition-colors"
+                                            >Blog</a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="/rss.xml"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-neutral-700 transition-colors"
+                                            >RSS</a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="/dia"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-neutral-700 transition-colors"
+                                            >Dia</a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="/tags"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-neutral-700 transition-colors"
+                                            >Tags</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </DropdownItems>
+                    </Dropdown>
+                </li>
+                <ThemeIcon />
+            </div>
+        </div>
+    </Astronav>
 </header>
