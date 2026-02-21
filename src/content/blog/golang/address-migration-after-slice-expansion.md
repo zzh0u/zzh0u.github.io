@@ -1,5 +1,5 @@
 ---
-title: 'Golang 切片长度'
+title: 'Golang 切片扩容后的地址迁移'
 pubDate: 2024-10-06
 description: 'Golang 中有关切片长度超出原数组长度的探索'
 author: 'zzh0u'
