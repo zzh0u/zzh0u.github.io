@@ -3,7 +3,7 @@ title: 'Gorm 学习笔记-2'
 pubDate: 2025-07-08
 description: '学习有关 Gorm 的知识'
 author: 'zzh0u'
-tags: ["技术","Gorm","PostgreSQL"]
+tags: ["技术","Golang","Gorm","PostgreSQL"]
 ---
 
 这篇笔记紧跟第一篇的内容，继续学习 Gorm 的相关操作。此外，[GORM 官方中文文档](https://gorm.io/zh_CN/docs/)也写得非常详细，这篇笔记大多参考官方文档，并在其基础上适当精炼。上一篇笔记我们进行到连接数据库，这一篇我们跳过无聊的 CURD 操作。

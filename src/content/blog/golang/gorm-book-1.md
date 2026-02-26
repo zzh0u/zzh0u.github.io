@@ -3,7 +3,7 @@ title: 'Gorm 学习笔记-1'
 pubDate: 2025-03-19
 description: '学习有关 Gorm 的知识'
 author: 'zzh0u'
-tags: ["技术","Gorm","PostgreSQL"]
+tags: ["技术","Golang","Gorm","PostgreSQL"]
 ---
 
 > 我们不用太去纠结应该选择哪一个 ORM 框架，熟悉了其中一个，其他的 orm 迁移成本很低，我们就选择一个 star 数量最高的，不会有出错的框架就行了，它们之间整体差异不会很大。我们更应该关注 SQL 语言本身，它远比 ORM 框架要重要的多。<a href="https://blog.pi3.fun/post/2025/03/gorm%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%96%E7%A8%8B/"><p align="right">—Pi3</p></a>

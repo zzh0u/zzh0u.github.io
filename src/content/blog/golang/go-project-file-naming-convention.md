@@ -3,7 +3,7 @@ title: 'Go 项目文件命名规范是什么?'
 pubDate: 2025-02-09
 description: '写 Go 代码时，总会在各种命名方式中纠结，混乱不堪，于是拜读一些互联网博客后，博采众长，写一份自认为不算太差的命名习惯。'
 author: 'zzh0u'
-tags: ["Project","Golang"]
+tags: ["技术","Golang","命名"]
 ---
 
 > 计算机科学中只有两件难事：缓存失效和命名。—— 菲尔·卡尔顿（Phil Karlton）。
