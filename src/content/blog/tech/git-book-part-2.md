@@ -7,7 +7,7 @@ tags: ["技术","Git"]
 ---
 
 
-在[第一篇博客](https://zzh0u.github.io/blog/git-flow-part-1/)，我们熟悉了 Git 的基本流程，包括初始化、添加、提交、推送、拉取等操作。在这篇博客中，我们将继续介绍 Git 远程操作，包括远程仓库的创建、推送、拉取等操作。在这篇博客中，我默认大家都有自己的 [GitHub](https://github.com) 账号。
+在[第一篇博客](https://zzh0u.github.io/blog/git-book-part-1/)，我们熟悉了 Git 的基本流程，包括初始化、添加、提交、推送、拉取等操作。在这篇博客中，我们将继续介绍 Git 远程操作，包括远程仓库的创建、推送、拉取等操作。在这篇博客中，我默认大家都有自己的 [GitHub](https://github.com) 账号。
 
 ### 远程仓库是什么
 
