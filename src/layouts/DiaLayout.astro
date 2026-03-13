@@ -1,0 +1,66 @@
+---
+import type { MarkdownLayoutProps } from "astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Breadcrumb from "@/components/Breadcrumb.astro";
+import Layout from "./Layout.astro";
+import { SITE } from "@/config";
+
+type Props = MarkdownLayoutProps<{ title: string }>;
+
+const { frontmatter } = Astro.props;
+---
+
+<Layout title={`${frontmatter.title} | ${SITE.title}`}>
+  <Header />
+  <!-- <Breadcrumb /> -->
+  <main id="main-content" class="app-layout">
+    <section
+      id="dia"
+      class="dia-content app-prose mb-28 max-w-app prose-img:border-0"
+    >
+      <slot />
+    </section>
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+  /* Content styling */
+  .dia-content {
+    position: relative;
+  }
+
+  .dia-content :global(h2) {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dia-content :global(h2::after) {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, var(--color-accent), transparent);
+    border-radius: 999px;
+    box-shadow: 0 0 8px color-mix(in srgb, var(--color-accent) 30%, transparent);
+  }
+
+  .dia-content :global(h3) {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dia-content :global(h3::after) {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, var(--color-border), transparent);
+    border-radius: 999px;
+  }
+</style>
