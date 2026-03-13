@@ -70,13 +70,13 @@ const isActive = (path: string) => {
 
           <!-- Desktop links (always visible on sm+) -->
           <ul class="hidden sm:flex sm:flex-row sm:items-center sm:gap-1">
-            <li>
+            <!-- <li>
               <a
                 href="/posts"
                 class:list={["nav-link", { "nav-active": isActive("/posts") }]}
                 >Posts</a
               >
-            </li>
+            </li> -->
             <li>
               <a
                 href="/tags"
@@ -183,18 +183,19 @@ const isActive = (path: string) => {
       <div class="mobile-menu-panel relative mt-2 w-full mx-auto rounded-2xl border border-white/10 dark:border-white/5 overflow-hidden shadow-2xl">
         <div class="mobile-menu-inner">
           <nav class="mobile-nav-links">
-            <a
+             <!-- <a
               href="/posts"
               class:list={["mobile-nav-link", { active: isActive("/posts") }]}
               style="--i:0"
             >
               <span class="mobile-nav-indicator"></span>
               <span>Posts</span>
-            </a>
+            </a> -->
+            <!-- 这里 style="--i:1" 变成了 0 -->
             <a
               href="/tags"
               class:list={["mobile-nav-link", { active: isActive("/tags") }]}
-              style="--i:1"
+              style="--i:0"
             >
               <span class="mobile-nav-indicator"></span>
               <span>Tags</span>

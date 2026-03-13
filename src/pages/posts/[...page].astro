@@ -1,4 +1,4 @@
----
+<!-- ---
 import type { GetStaticPaths } from "astro";
 import { getCollection } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
@@ -24,7 +24,6 @@ const totalPosts = page.total;
   <Header />
   <Breadcrumb />
   <main id="main-content" class="app-layout pb-4">
-    <!-- Hero -->
     <div class="posts-hero" data-posts-hero>
       <div class="aurora-orb aurora-orb-1"></div>
       <div class="aurora-orb aurora-orb-2"></div>
@@ -50,14 +49,14 @@ const totalPosts = page.total;
       </div>
     </div>
 
-    <!-- Posts Toolbar -->
+    /* Posts Toolbar */
     <div class="posts-toolbar mb-8">
       <div class="posts-search-wrapper">
         <div id="posts-pagefind" class="premium-search"></div>
       </div>
     </div>
 
-    <!-- Posts Grid -->
+    /* Posts Grid */
     <div data-default-posts-container class="w-full">
       {
         page.data.length === 0 ? (
@@ -396,4 +395,4 @@ const totalPosts = page.total;
     max-width: 300px;
     margin: 0 auto;
   }
-</style>
+</style> -->
