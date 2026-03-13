@@ -92,7 +92,8 @@
     }
 
     blockquote {
-      @apply rounded-r-xl border-s-[3px] border-accent/80 bg-accent/5 py-4 pr-5 pl-6 font-sriracha text-[1.05rem] text-foreground/90 opacity-90 shadow-sm shadow-accent/5 wrap-break-word;
+      @apply rounded-r-xl border-s-[3px] border-accent/80 bg-accent/5 py-1 pr-4 pl-10 font-sriracha text-[1.05rem] text-foreground/90 opacity-90 shadow-sm shadow-accent/5 wrap-break-word;
+      font-style: normal;
     }
 
     /* ===== Table of Contents (modern card) ===== */
