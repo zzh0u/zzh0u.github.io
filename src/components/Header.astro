@@ -79,13 +79,6 @@ const isActive = (path: string) => {
             </li> -->
             <li>
               <a
-                href="/tags"
-                class:list={["nav-link", { "nav-active": isActive("/tags") }]}
-                >Tags</a
-              >
-            </li>
-            <li>
-              <a
                 href="/about"
                 class:list={["nav-link", { "nav-active": isActive("/about") }]}
                 >About</a
@@ -98,13 +91,20 @@ const isActive = (path: string) => {
                 >Dia</a
               >
             </li>
-            <li class="flex items-center">
+                        <li>
+              <a
+                href="/tags"
+                class:list={["nav-link", { "nav-active": isActive("/tags") }]}
+                >Tags</a
+              >
+            </li>
+            <!-- <li class="flex items-center">
               <a
                 href="/search"
                 class:list={["nav-link", { "nav-active": isActive("/search") }]}
                 title="Go to search">Search</a
               >
-            </li>
+            </li> -->
             {
               SITE.showArchives && (
                 <li>
@@ -198,19 +198,10 @@ const isActive = (path: string) => {
               <span class="mobile-nav-indicator"></span>
               <span>Posts</span>
             </a> -->
-            <!-- 这里 style="--i:1" 变成了 0 -->
-            <a
-              href="/tags"
-              class:list={["mobile-nav-link", { active: isActive("/tags") }]}
-              style="--i:0"
-            >
-              <span class="mobile-nav-indicator"></span>
-              <span>Tags</span>
-            </a>
             <a
               href="/about"
               class:list={["mobile-nav-link", { active: isActive("/about") }]}
-              style="--i:2"
+              style="--i:0"
             >
               <span class="mobile-nav-indicator"></span>
               <span>About</span>
@@ -218,10 +209,18 @@ const isActive = (path: string) => {
             <a
               href="/dia"
               class:list={["mobile-nav-link", { active: isActive("/dia") }]}
-              style="--i:3"
+              style="--i:1"
             >
               <span class="mobile-nav-indicator"></span>
               <span>Dia</span>
+            </a>
+            <a
+              href="/tags"
+              class:list={["mobile-nav-link", { active: isActive("/tags") }]}
+              style="--i:2"
+            >
+              <span class="mobile-nav-indicator"></span>
+              <span>Tags</span>
             </a>
             {
               SITE.showArchives && (
@@ -260,7 +259,7 @@ const isActive = (path: string) => {
 
           <!-- Bottom action row -->
           <div class="mobile-menu-actions">
-            <button
+            <!-- <button
               data-search-trigger
               class="mobile-action-btn flex-1 justify-center"
               title="Search (⌘K)"
@@ -268,7 +267,7 @@ const isActive = (path: string) => {
             >
               <IconSearch class="size-4" />
               <span>Search</span>
-            </button>
+            </button> -->
             {
               SITE.lightAndDarkMode && (
                 <button
