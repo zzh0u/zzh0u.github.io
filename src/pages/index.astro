@@ -11,7 +11,7 @@ import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
-import IntroAudio from "@/components/IntroAudio.astro";
+// import IntroAudio from "@/components/IntroAudio.astro";
 
 const posts = await getCollection("blog");
 
@@ -68,6 +68,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         </h1>
 
         {
+          /* (
           SITE.introAudio.enabled && (
             <div class="mt-3">
               <IntroAudio
@@ -77,6 +78,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
               />
             </div>
           )
+        ) */
         }
 
         <!-- Description -->
