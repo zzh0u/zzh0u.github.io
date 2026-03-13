@@ -27,6 +27,10 @@ title: "About"
 - 通过否认他人获得存在感的人
 - 通过论证他人错误来证明自己正确的人
 
+### 🙏 致谢
+
+- 感谢 [astro-devosfera](https://github.com/0xdres/astro-devosfera) 提供代码主题
+
 ### 🔗 联系我
 
 - 主页：[https://github.com/zzh0u](https://github.com/zzh0u)
