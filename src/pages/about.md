@@ -18,6 +18,7 @@ title: "About"
 - 逛博客，偏爱科技类、人文类、科普类
 - 听播客，见上一条
 - 阅读，喝酒，音乐，玩游戏，漫无目的的探索
+- 可以查看 [neodb.social](https://neodb.social/users/odin/)
 
 ### 👎 讨厌的人
 
@@ -27,12 +28,12 @@ title: "About"
 - 通过否认他人获得存在感的人
 - 通过论证他人错误来证明自己正确的人
 
-### 🙏 致谢
-
-- 感谢 [astro-devosfera](https://github.com/0xdres/astro-devosfera) 提供代码主题
-
 ### 🔗 联系我
 
 - 主页：[https://github.com/zzh0u](https://github.com/zzh0u)
 - 博客：[https://zzh0u.github.io/](https://zzh0u.github.io/)
 - 邮件：[weirong.zhou@outlook.com](mailto:weirong.zhou@outlook.com)
+
+### 🙏 致谢
+
+感谢 [astro-devosfera](https://github.com/0xdres/astro-devosfera) 提供代码主题
