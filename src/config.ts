@@ -1,7 +1,7 @@
 export const SITE = {
   website: "https://zzh0u.github.io/",
   author: "Jovi Zhou",
-  title: "0x003FF",
+  title: "0x772B",
   profile: "https://github.com/zzh0u",
   desc: "请洒潘江，各倾陆海云尔",
   ogImage: "Akaza.webp", // located in the public folder
