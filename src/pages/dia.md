@@ -5,6 +5,10 @@ title: "Dia"
 
 ## 2026 年
 
+- 3 月 22 日 周日
+
+又看了一遍通关死亡搁浅后写的[文章](https://zzh0u.github.io/posts/entertainment/death-stranding)，想玩死亡搁浅 2 了。
+
 - 3 月 15 日 周日
 去杭州参加了 Bonjour! 的活动，见到了不少老朋友，还认识了新朋友，开心。
 
