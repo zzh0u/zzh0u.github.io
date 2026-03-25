@@ -15,28 +15,6 @@ const { frontmatter } = Astro.props;
   <Header />
   <Breadcrumb />
   <main id="main-content" class="app-layout">
-    <!-- Hero with interactive aurora -->
-    <div class="links-hero" data-links-hero>
-      <div class="aurora-orb aurora-orb-1"></div>
-      <div class="aurora-orb aurora-orb-2"></div>
-      <div class="aurora-orb aurora-orb-3"></div>
-      <div class="aurora-mouse" data-links-mouse></div>
-      <div class="hero-content">
-        <div class="hero-icon">
-          <span class="icon-emoji">🔗</span>
-        </div>
-        <h1 class="hero-title">
-          <span class="greeting">Reading List</span>
-          <span class="name-glow">{frontmatter.title}</span>
-        </h1>
-        <div class="hero-badges">
-          <span class="badge" data-badge>📚 Articles</span>
-          <span class="badge" data-badge>💡 Ideas</span>
-          <span class="badge" data-badge>🌐 Web</span>
-        </div>
-      </div>
-    </div>
-
     <section
       id="links"
       class="links-content app-prose mb-28 max-w-app prose-img:border-0"
@@ -242,7 +220,8 @@ const { frontmatter } = Astro.props;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 30px color-mix(in srgb, var(--color-accent) 15%, transparent);
+    box-shadow: 0 0 30px
+      color-mix(in srgb, var(--color-accent) 15%, transparent);
   }
 
   .icon-emoji {
@@ -394,7 +373,8 @@ const { frontmatter } = Astro.props;
   .links-content :global(a) {
     color: var(--color-accent);
     text-decoration: none;
-    border-bottom: 1px dashed color-mix(in srgb, var(--color-accent) 40%, transparent);
+    border-bottom: 1px dashed
+      color-mix(in srgb, var(--color-accent) 40%, transparent);
     transition: all 0.2s ease;
   }
 
