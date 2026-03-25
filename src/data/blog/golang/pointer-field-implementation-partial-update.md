@@ -1,7 +1,7 @@
 ---
 title: 'Golang 使用指针字段实现部分更新'
 pubDatetime: 2026-02-23
-description: '学习有关 Gorm 的知识'
+description: 'Golang 使用指针字段实现部分更新'
 author: 'zzh0u'
 tags: ["技术","Golang","指针"]
 ---
