@@ -5,6 +5,10 @@ title: "Dia"
 
 ## 2026 年
 
+- 3 月 31 日 周二
+
+[cc](https://github.com/instructkr/claude-code) 源码泄漏了，世界真是个巨大的草台班子
+
 - 3 月 22 日 周日
 
 又看了一遍通关死亡搁浅后写的[文章](https://zzh0u.github.io/posts/entertainment/death-stranding)，想玩死亡搁浅 2 了。
