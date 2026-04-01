@@ -3,7 +3,7 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-## 你好，我是周末，你也可以叫我 jovi 👋
+## 你好，我是 jovi 👋
 
 ### 💡 一些理念
 
@@ -18,15 +18,7 @@ title: "About"
 - 逛博客，偏爱科技类、人文类、科普类
 - 听播客，见上一条
 - 阅读，喝酒，音乐，玩游戏，漫无目的的探索
-- 可以查看 [neodb.social](https://neodb.social/users/odin/)
-
-### 👎 讨厌的人
-
-- 坚持非黑即白的二极管
-- 以 MBTI 或者星座为**唯一**准则交友的人
-- 把用户当成傻逼的开发者、认为用户是傻逼结果自己才是傻逼的开发者、以及傻逼
-- 通过否认他人获得存在感的人
-- 通过论证他人错误来证明自己正确的人
+- 可以通过 [neodb.social](https://neodb.social/users/odin/) 看看我最近在看什么
 
 ### 🔗 联系我
 
