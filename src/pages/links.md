@@ -45,6 +45,10 @@ title: "Links"
 
 [稻草人周刊 Vol. 55 吵架的目的从来不是胜利](https://www.geedea.pro/posts/weekly/55/)
 
+[被嫌弃的松子的一生](https://frostming.com/posts/2025/county-woman/)
+
+[谈论「认知」就是在羞辱他人吗？](https://mobius.blog/2026/03/30/why-cognition-feels-like-insult/)
+
 ### 写作与博客
 
 [互联网背景噪音](https://atpx.com/blog/the-internet-background-noise/)
