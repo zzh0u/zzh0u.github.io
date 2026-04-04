@@ -9,9 +9,11 @@ title: "Links"
 
 ### 技术
 
-[两个月重度使用 AI Code Agent：普通一线程序员的思考和感想](https://jt26wzz.com/posts/0013-ai-coding/)
+[Hackers and Painters](https://www.paulgraham.com/hp.html)
 
 [程序员和整洁的 Home](https://www.geedea.pro/essays/clean-home/)
+
+[两个月重度使用 AI Code Agent：普通一线程序员的思考和感想](https://jt26wzz.com/posts/0013-ai-coding/)
 
 [谈一谈 golang 接口和结构体的三种嵌套及匿名字段](https://juejin.cn/post/7120219197799563278)
 
@@ -29,11 +31,15 @@ title: "Links"
 
 [胡同、什刹海和沙尘暴，我的北漂爱情故事](https://mp.weixin.qq.com/s/nR4dOPmPCCwOmvsVTJISOQ)
 
+[信任之前请先看清对方的立场](https://blog.solazy.me/20260108/)
+
+[那些脱口而出的思考](https://anotherdayu.com/2024/6185/)
+
+[只有散步我們才真正聊天](https://matters.town/a/0k0agaewbop9)
+
 ### 社会观察与思考
 
 [我们在造神运动中，失去的是理性与常识](https://wangyurui.com/posts/zao-shen-yun-dong-da-fen-qi-ru-he-cheng-wei-wan-3ecc0de5)
-
-[信任之前请先看清对方的立场](https://blog.solazy.me/20260108/)
 
 [补一张卡，要几道证明？](https://ninan.me/incisive-notes/Complaining-about-the-card-suspension-campaign.html)
 
@@ -49,6 +55,12 @@ title: "Links"
 
 [谈论「认知」就是在羞辱他人吗？](https://mobius.blog/2026/03/30/why-cognition-feels-like-insult/)
 
+[论当今的通话膨胀](https://www.bilibili.com/video/BV1he4y1i7cX)
+
+[2015-2016 随笔选集](https://ursb.me/posts/2015-2016-essays/)
+
+[湖南农村见闻：同样人口流出，为何活出不同样子？](https://lawtee.com/article/rural-observation-southern-hunan-2026/)
+
 ### 写作与博客
 
 [互联网背景噪音](https://atpx.com/blog/the-internet-background-noise/)
@@ -60,6 +72,8 @@ title: "Links"
 [为什么我的博客没有友链页面](https://atpx.com/blog/why-no-link-exchange-page-on-my-blog/)
 
 [我为什么关闭博客评论？](https://onojyun.com/2026/03/07/why-i-closed-my-blog-comments/)
+
+[技术博客可能已经走到尽头](https://lawtee.com/article/tech-blog/)
 
 ### 商业
 
