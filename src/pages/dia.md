@@ -5,6 +5,10 @@ title: "Dia"
 
 ## 2026 年
 
+- 4 月 5 日 周日
+
+minikube 的中文本地化做得不错，终端输出还有 emoji，不错不错！
+
 - 3 月 31 日 周二
 
 [cc](https://github.com/instructkr/claude-code) 源码泄漏了，世界真是个巨大的草台班子
