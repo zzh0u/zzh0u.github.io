@@ -9,8 +9,6 @@ title: "Links"
 
 ### 技术
 
-[Hackers and Painters](https://www.paulgraham.com/hp.html)
-
 [程序员和整洁的 Home](https://www.geedea.pro/essays/clean-home/)
 
 [两个月重度使用 AI Code Agent：普通一线程序员的思考和感想](https://jt26wzz.com/posts/0013-ai-coding/)
@@ -45,10 +43,6 @@ title: "Links"
 
 [请你带着边界感来「爱」我](https://blog.bxaw.name/archives/Love-Me-with-Boundaries-To-those-who-hide-invasion-behind-gentleness.html)
 
-[《三体》读后感：重新理解人类](https://lawtee.com/article/three-body-problem-reading-notes/)
-
-[阅读的目的从来不是获取知识](https://www.geedea.pro/essays/%E9%98%85%E8%AF%BB%E7%9A%84%E7%9B%AE%E7%9A%84%E4%BB%8E%E6%9D%A5%E4%B8%8D%E6%98%AF%E8%8E%B7%E5%8F%96%E7%9F%A5%E8%AF%86/)
-
 [稻草人周刊 Vol. 55 吵架的目的从来不是胜利](https://www.geedea.pro/posts/weekly/55/)
 
 [被嫌弃的松子的一生](https://frostming.com/posts/2025/county-woman/)
@@ -63,17 +57,25 @@ title: "Links"
 
 ### 写作与博客
 
+[为什么我的博客没有友链页面](https://atpx.com/blog/why-no-link-exchange-page-on-my-blog/)
+
+[我为什么关闭博客评论？](https://onojyun.com/2026/03/07/why-i-closed-my-blog-comments/)
+
 [互联网背景噪音](https://atpx.com/blog/the-internet-background-noise/)
 
 [是「登录」而不是「登陆」](https://blog.solazy.me/20251216/)
 
 [重复在剥离意义](https://www.geedea.pro/essays/%E9%87%8D%E5%A4%8D%E5%9C%A8%E5%89%A5%E7%A6%BB%E6%84%8F%E4%B9%89/)
 
-[为什么我的博客没有友链页面](https://atpx.com/blog/why-no-link-exchange-page-on-my-blog/)
-
-[我为什么关闭博客评论？](https://onojyun.com/2026/03/07/why-i-closed-my-blog-comments/)
-
 [技术博客可能已经走到尽头](https://lawtee.com/article/tech-blog/)
+
+### 阅读与体验
+
+[阅读的目的从来不是获取知识](https://www.geedea.pro/essays/%E9%98%85%E8%AF%BB%E7%9A%84%E7%9B%AE%E7%9A%84%E4%BB%8E%E6%9D%A5%E4%B8%8D%E6%98%AF%E8%8E%B7%E5%8F%96%E7%9F%A5%E8%AF%86/)
+
+[《三体》读后感：重新理解人类](https://lawtee.com/article/three-body-problem-reading-notes/)
+
+[Hackers and Painters](https://www.paulgraham.com/hp.html)
 
 ### 商业
 
