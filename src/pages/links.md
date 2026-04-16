@@ -19,6 +19,14 @@ title: "Links"
 
 [8848 和小龙虾](https://blog.solazy.me/20260311/)
 
+[https://openai.com/index/scaling-postgresql/](https://openai.com/index/scaling-postgresql/)
+
+[你不知道的 Claude Code：架构、治理与工程实践](https://tw93.fun/2026-03-12/claude.html)
+
+[你不知道的 Agent：原理、架构与工程实践](https://tw93.fun/2026-03-21/agent.html)
+
+[你不知道的大模型训练：原理、路径与新实践](https://tw93.fun/2026-04-03/llm.html)
+
 ### 个人成长与生活
 
 [Men suck at maintaining friendships](https://varunraghu.com/men-suck-at-maintaining-friendships/)
@@ -34,6 +42,8 @@ title: "Links"
 [那些脱口而出的思考](https://anotherdayu.com/2024/6185/)
 
 [只有散步我們才真正聊天](https://matters.town/a/0k0agaewbop9)
+
+[在 AI 时代，我是如何深入学习一个技术领域的](https://tw93.fun/2026-04-06/learn.html)
 
 ### 社会观察与思考
 
