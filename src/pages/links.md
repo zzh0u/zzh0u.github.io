@@ -27,6 +27,10 @@ title: "Links"
 
 [你不知道的大模型训练：原理、路径与新实践](https://tw93.fun/2026-04-03/llm.html)
 
+[Why does Go not have the ?: operator?](https://go.dev/doc/faq#Does_Go_have_a_ternary_form)
+
+[To my students](http://ozark.hendrix.edu/~yorgey/forest/00FD/index.xml)
+
 ### 个人成长与生活
 
 [Men suck at maintaining friendships](https://varunraghu.com/men-suck-at-maintaining-friendships/)
@@ -64,6 +68,8 @@ title: "Links"
 [2015-2016 随笔选集](https://ursb.me/posts/2015-2016-essays/)
 
 [湖南农村见闻：同样人口流出，为何活出不同样子？](https://lawtee.com/article/rural-observation-southern-hunan-2026/)
+
+[闷声发大财](https://blog.solazy.me/20260428/)
 
 ### 写作与博客
 
