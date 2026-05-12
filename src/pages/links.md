@@ -93,6 +93,10 @@ title: "Links"
 
 [Hackers and Painters](https://www.paulgraham.com/hp.html)
 
+[《动物农场》读后记](https://fuxes.cn/readings/%E5%8A%A8%E7%89%A9%E5%86%9C%E5%9C%BA)
+
+[死亡搁浅 2 体验](https://www.xiaoheihe.cn/app/bbs/link/9bd971d92e9d)
+
 ### 商业
 
 [不付钱给用户，反而能找到最忠诚的人｜Notion 如何靠大使计划构建 PLG 增长飞轮？](https://mp.weixin.qq.com/s/fY6lcLBItg218t8yJBKhJQ)
