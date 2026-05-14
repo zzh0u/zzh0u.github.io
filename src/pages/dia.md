@@ -5,19 +5,19 @@ title: "Dia"
 
 ## 2026 年
 
+- 5 月 12 日 周二
+不喜欢在家待着，因为长辈总能在你即将主动去做某件事的瞬间，抢先一步“提醒”你该去做。
+
 - 4 月 14 日 周二
 Windows 是我使用时间最长的系统，同时也是最讨厌的系统，其中以 Win 11 尤甚。现在 Windows 已经成为了我的 Steam 启动器，只要你和我一样喜欢喷 Windows，我们就是好朋友！
 
 - 4 月 5 日 周日
-
 minikube 的中文本地化做得不错，终端输出还有 emoji，不错不错！
 
 - 3 月 31 日 周二
-
 [cc](https://github.com/instructkr/claude-code) 源码泄漏了，世界真是个巨大的草台班子
 
 - 3 月 22 日 周日
-
 又看了一遍通关死亡搁浅后写的[文章](https://zzh0u.github.io/posts/entertainment/death-stranding)，想玩死亡搁浅 2 了。
 
 - 3 月 15 日 周日
