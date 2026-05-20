@@ -99,6 +99,8 @@ title: "Links"
 
 ### 商业
 
+[影视飓风的生意](https://blog.solazy.me/20260517/)
+
 [不付钱给用户，反而能找到最忠诚的人｜Notion 如何靠大使计划构建 PLG 增长飞轮？](https://mp.weixin.qq.com/s/fY6lcLBItg218t8yJBKhJQ)
 
 [美团是如何招人的？](https://mp.weixin.qq.com/s/mXIW_WNHDuERilcaERtbuw)
