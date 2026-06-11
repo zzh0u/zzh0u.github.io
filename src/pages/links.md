@@ -9,6 +9,8 @@ title: "Links"
 
 ### 技术
 
+[Best Practices for Secure Error Handling in Go](https://blog.jetbrains.com/go/2026/03/02/secure-go-error-handling-best-practices/)
+
 [程序员和整洁的 Home](https://www.geedea.pro/essays/clean-home/)
 
 [两个月重度使用 AI Code Agent：普通一线程序员的思考和感想](https://jt26wzz.com/posts/0013-ai-coding/)
@@ -73,6 +75,8 @@ title: "Links"
 
 ### 写作与博客
 
+[创作、交易与精神独立](https://blog.solazy.me/20260513/)
+
 [为什么我的博客没有友链页面](https://atpx.com/blog/why-no-link-exchange-page-on-my-blog/)
 
 [我为什么关闭博客评论？](https://onojyun.com/2026/03/07/why-i-closed-my-blog-comments/)
@@ -96,6 +100,8 @@ title: "Links"
 [《动物农场》读后记](https://fuxes.cn/readings/%E5%8A%A8%E7%89%A9%E5%86%9C%E5%9C%BA)
 
 [死亡搁浅 2 体验](https://www.xiaoheihe.cn/app/bbs/link/9bd971d92e9d)
+
+[我们不是可以一起散步的关系。](https://mp.weixin.qq.com/s/cJuYBYDufJs0FHEVWTi5hQ)
 
 ### 商业
 
