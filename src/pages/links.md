@@ -33,7 +33,9 @@ title: "Links"
 
 [To my students](http://ozark.hendrix.edu/~yorgey/forest/00FD/index.xml)
 
-### 个人成长与生活
+### 个人成长与生活体验
+
+[How to Waste a Morning (Properly)](https://tomaguir.substack.com/p/how-to-waste-a-morning-properly)
 
 [Men suck at maintaining friendships](https://varunraghu.com/men-suck-at-maintaining-friendships/)
 
@@ -52,6 +54,10 @@ title: "Links"
 [在 AI 时代，我是如何深入学习一个技术领域的](https://tw93.fun/2026-04-06/learn.html)
 
 ### 社会观察与思考
+
+[从“首尔之春”看韩国民主化：两次中断与一次突破](https://blog.tangwudi.com/technology/cognition14183/)
+
+[低频但高质量的友谊](https://blog.solazy.me/20260613/)
 
 [我们在造神运动中，失去的是理性与常识](https://wangyurui.com/posts/zao-shen-yun-dong-da-fen-qi-ru-he-cheng-wei-wan-3ecc0de5)
 
@@ -91,6 +97,10 @@ title: "Links"
 
 ### 阅读与体验
 
+[How to Waste a Morning (Properly)](https://tomaguir.substack.com/p/how-to-waste-a-morning-properly)
+
+[看电影时，我到底在期待什么](https://blog.solazy.me/20260611/)
+
 [阅读的目的从来不是获取知识](https://www.geedea.pro/essays/%E9%98%85%E8%AF%BB%E7%9A%84%E7%9B%AE%E7%9A%84%E4%BB%8E%E6%9D%A5%E4%B8%8D%E6%98%AF%E8%8E%B7%E5%8F%96%E7%9F%A5%E8%AF%86/)
 
 [《三体》读后感：重新理解人类](https://lawtee.com/article/three-body-problem-reading-notes/)
@@ -103,7 +113,9 @@ title: "Links"
 
 [我们不是可以一起散步的关系。](https://mp.weixin.qq.com/s/cJuYBYDufJs0FHEVWTi5hQ)
 
-### 商业
+### 商业与公司
+
+[置身钉内](https://read.limboy.me/pinned-inside-dingtalk#%E4%BA%8B%E4%BB%A5%E5%AF%86%E6%88%90)
 
 [影视飓风的生意](https://blog.solazy.me/20260517/)
 
