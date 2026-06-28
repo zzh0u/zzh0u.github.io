@@ -55,6 +55,8 @@ title: "Links"
 
 ### 社会观察与思考
 
+[「安康警察」和「逆风警察」](https://blog.solazy.me/20260621/)
+
 [从“首尔之春”看韩国民主化：两次中断与一次突破](https://blog.tangwudi.com/technology/cognition14183/)
 
 [低频但高质量的友谊](https://blog.solazy.me/20260613/)
@@ -114,6 +116,8 @@ title: "Links"
 [我们不是可以一起散步的关系。](https://mp.weixin.qq.com/s/cJuYBYDufJs0FHEVWTi5hQ)
 
 ### 商业与公司
+
+[Hey, N00b, We Didn't Hire You to Complete Tasks](https://newsletter.kentbeck.com/p/hey-n00b-we-didnt-hire-you-to-complete)
 
 [置身钉内](https://read.limboy.me/pinned-inside-dingtalk#%E4%BA%8B%E4%BB%A5%E5%AF%86%E6%88%90)
 
