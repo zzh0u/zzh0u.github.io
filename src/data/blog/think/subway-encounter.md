@@ -3,7 +3,7 @@ title: '被当成坏人了'
 pubDatetime: 2025-11-23
 description: '一次有意思的地铁经历'
 author: 'zzh0u'
-tags: ["闲谈","观察"]
+tags: ["思考","观察"]
 ---
 
 阅后即焚。
