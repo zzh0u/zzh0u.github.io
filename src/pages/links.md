@@ -35,6 +35,8 @@ title: "Links"
 
 ### 个人成长与生活体验
 
+[Why me?](https://blog.solazy.me/20260727/)
+
 [How to Waste a Morning (Properly)](https://tomaguir.substack.com/p/how-to-waste-a-morning-properly)
 
 [Men suck at maintaining friendships](https://varunraghu.com/men-suck-at-maintaining-friendships/)
