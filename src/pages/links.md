@@ -57,6 +57,8 @@ title: "Links"
 
 ### 社会观察与思考
 
+[承认吧，你其实根本不爱看书](https://blog.solazy.me/20260729/)
+
 [「安康警察」和「逆风警察」](https://blog.solazy.me/20260621/)
 
 [从“首尔之春”看韩国民主化：两次中断与一次突破](https://blog.tangwudi.com/technology/cognition14183/)
