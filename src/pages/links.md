@@ -119,6 +119,8 @@ title: "Links"
 
 ### 商业与公司
 
+[不想转正的心](https://blog.solazy.me/20260810/)
+
 [Hey, N00b, We Didn't Hire You to Complete Tasks](https://newsletter.kentbeck.com/p/hey-n00b-we-didnt-hire-you-to-complete)
 
 [置身钉内](https://read.limboy.me/pinned-inside-dingtalk#%E4%BA%8B%E4%BB%A5%E5%AF%86%E6%88%90)
