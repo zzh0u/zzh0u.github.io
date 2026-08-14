@@ -55,6 +55,8 @@ title: "Links"
 
 ### 社会观察与思考
 
+[在写字楼里工作二十年后，她睡在了天桥下](https://mp.weixin.qq.com/s/WwSIoLygcvMSVggnYINRtQ)
+
 [承认吧，你其实根本不爱看书](https://blog.solazy.me/20260729/)
 
 [「安康警察」和「逆风警察」](https://blog.solazy.me/20260621/)
@@ -100,6 +102,8 @@ title: "Links"
 [技术博客可能已经走到尽头](https://lawtee.com/article/tech-blog/)
 
 ### 阅读与体验
+
+[Elevators](https://john.fun/elevators)
 
 [How to Waste a Morning (Properly)](https://tomaguir.substack.com/p/how-to-waste-a-morning-properly)
 
