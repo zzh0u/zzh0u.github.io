@@ -103,6 +103,10 @@ title: "Links"
 
 ### 阅读与体验
 
+[牛郎织女和父权](https://blog.cytrogen.icu/posts/ef30.html)
+
+[父权制里被歌颂的“爱情”是——牛郎对织女的盗窃、强奸与非法拘禁](https://mp.weixin.qq.com/s/9HcyfHNcT6K7Z2k_tU2YZg)
+
 [Elevators](https://john.fun/elevators)
 
 [How to Waste a Morning (Properly)](https://tomaguir.substack.com/p/how-to-waste-a-morning-properly)
