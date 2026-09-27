@@ -127,6 +127,8 @@ title: "Links"
 
 ### 商业与公司
 
+[敬畏之心](https://blog.solazy.me/20260915/)
+
 [不想转正的心](https://blog.solazy.me/20260810/)
 
 [Hey, N00b, We Didn't Hire You to Complete Tasks](https://newsletter.kentbeck.com/p/hey-n00b-we-didnt-hire-you-to-complete)
