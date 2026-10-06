@@ -103,6 +103,8 @@ title: "Links"
 
 ### 阅读与体验
 
+[云风：一个编程的自由人](https://www.ituring.com.cn/article/58692/)
+
 [牛郎织女和父权](https://blog.cytrogen.icu/posts/ef30.html)
 
 [父权制里被歌颂的“爱情”是——牛郎对织女的盗窃、强奸与非法拘禁](https://mp.weixin.qq.com/s/9HcyfHNcT6K7Z2k_tU2YZg)
