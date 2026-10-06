@@ -1,5 +1,5 @@
 ---
-title: '为什么是羊'
+title: '四羊方尊'
 pubDatetime: 2026-08-17
 description: '博物馆里看四羊方尊，想到的一点礼制与符号'
 author: 'zzh0u'
