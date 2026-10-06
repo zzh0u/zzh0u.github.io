@@ -24,7 +24,7 @@ title: "About"
 
 - 主页：[https://github.com/zzh0u](https://github.com/zzh0u)
 - 博客：[https://zzh0u.github.io/](https://zzh0u.github.io/)
-- 邮件：[weirong.zhou@outlook.com](mailto:weirong.zhou@outlook.com)
+- 邮件：weirong.zhou#outlook.com
 
 ### 🙏 致谢
 
