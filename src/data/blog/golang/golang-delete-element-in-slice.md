@@ -33,14 +33,14 @@ func main() {
 
 结果如下：
 
-``````bash
+```bash
 First Slice:  [1 2 3 4 5 5 6 5 7 8 9 10]
 Index of deleted element:  4
 Slice after delete:  [1 2 3 4 5 6 5 7 8 9 10]
 Index of deleted element:  6
 Slice after delete:  [1 2 3 4 5 6 7 8 9 10]
 Final Slice:  [1 2 3 4 5 6 7 8 9 10]
-``````
+```
 
 ### 问题分析
 
