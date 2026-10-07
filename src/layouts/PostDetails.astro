@@ -368,15 +368,20 @@ const nextPost =
   }
   addHeadingLinks();
 
-  /** Attaches copy buttons to code blocks in the document,
-   * allowing users to copy code easily. */
-  function attachCopyButtons() {
+  /** Enhances code blocks: copy button, and collapse when too long. */
+  function enhanceCodeBlocks() {
     const copyButtonLabel = "Copy";
+    const expandLabel = "Expand";
+    const collapseLabel = "Collapse";
+    const COLLAPSE_LINES = 20;
     const codeBlocks = Array.from(document.querySelectorAll("pre"));
 
     for (const codeBlock of codeBlocks) {
+      if (codeBlock.dataset.codeEnhanced === "true") continue;
+      codeBlock.dataset.codeEnhanced = "true";
+
       const wrapper = document.createElement("div");
-      wrapper.style.position = "relative";
+      wrapper.className = "code-block-wrapper";
 
       // Check if --file-name-offset custom property exists
       const computedStyle = getComputedStyle(codeBlock);
@@ -401,6 +406,37 @@ const nextPost =
       copyButton.addEventListener("click", async () => {
         await copyCode(codeBlock, copyButton);
       });
+
+      const lineEls = codeBlock.querySelectorAll(".line");
+      const lineCount =
+        lineEls.length > 0
+          ? lineEls.length
+          : (codeBlock.querySelector("code")?.innerText ?? "").split("\n")
+              .length;
+
+      if (lineCount <= COLLAPSE_LINES) continue;
+
+      wrapper.classList.add("is-collapsible");
+      codeBlock.classList.add("is-collapsed");
+      codeBlock.style.setProperty(
+        "--code-collapse-lines",
+        String(COLLAPSE_LINES)
+      );
+
+      const toggleButton = document.createElement("button");
+      toggleButton.type = "button";
+      toggleButton.className = "expand-code";
+      toggleButton.innerText = expandLabel;
+      toggleButton.setAttribute("aria-expanded", "false");
+
+      toggleButton.addEventListener("click", () => {
+        const expanded = wrapper.classList.toggle("is-expanded");
+        codeBlock.classList.toggle("is-collapsed", !expanded);
+        toggleButton.innerText = expanded ? collapseLabel : expandLabel;
+        toggleButton.setAttribute("aria-expanded", String(expanded));
+      });
+
+      wrapper.appendChild(toggleButton);
     }
 
     async function copyCode(block, button) {
@@ -417,7 +453,7 @@ const nextPost =
       }, 700);
     }
   }
-  attachCopyButtons();
+  enhanceCodeBlocks();
 
   /* Go to page start after page swap */
   document.addEventListener("astro:after-swap", () =>

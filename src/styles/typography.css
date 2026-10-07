@@ -241,6 +241,39 @@
     @apply bg-(--shiki-dark-bg) text-(--shiki-dark) [&_span]:text-(--shiki-dark);
   }
 
+  /* Collapsible long code blocks */
+  .code-block-wrapper {
+    @apply relative;
+  }
+
+  .astro-code.is-collapsed {
+    max-height: calc(var(--code-collapse-lines, 20) * 1.5em);
+    @apply overflow-auto;
+  }
+
+  .code-block-wrapper.is-collapsible:not(.is-expanded)::before {
+    content: "";
+    @apply pointer-events-none absolute inset-x-0 bottom-0 z-[1] h-12;
+    background: linear-gradient(
+      to top,
+      var(--shiki-light-bg) 0%,
+      transparent 100%
+    );
+  }
+
+  html[data-theme="dark"]
+    .code-block-wrapper.is-collapsible:not(.is-expanded)::before {
+    background: linear-gradient(
+      to top,
+      var(--shiki-dark-bg) 0%,
+      transparent 100%
+    );
+  }
+
+  .expand-code {
+    @apply absolute bottom-2 end-3 z-10 rounded border border-muted bg-muted px-2 py-1 text-xs leading-4 font-medium text-foreground;
+  }
+
   /* Styles for Shiki transformers */
   /* https://shiki.style/packages/transformers */
   .astro-code {
