@@ -88,7 +88,7 @@
     }
 
     .astro-code code {
-      @apply flex-[1_0_100%] bg-inherit p-0;
+      @apply flex-[1_0_100%] bg-inherit p-0 shadow-none;
     }
 
     blockquote {
@@ -249,25 +249,6 @@
   .astro-code.is-collapsed {
     max-height: calc(var(--code-collapse-lines, 20) * 1.5em);
     @apply overflow-auto;
-  }
-
-  .code-block-wrapper.is-collapsible:not(.is-expanded)::before {
-    content: "";
-    @apply pointer-events-none absolute inset-x-0 bottom-0 z-[1] h-12;
-    background: linear-gradient(
-      to top,
-      var(--shiki-light-bg) 0%,
-      transparent 100%
-    );
-  }
-
-  html[data-theme="dark"]
-    .code-block-wrapper.is-collapsible:not(.is-expanded)::before {
-    background: linear-gradient(
-      to top,
-      var(--shiki-dark-bg) 0%,
-      transparent 100%
-    );
   }
 
   .expand-code {
