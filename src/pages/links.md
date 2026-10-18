@@ -35,7 +35,7 @@ title: "Links"
 
 ### 个人成长与生活体验
 
-[Why me?](https://blog.solazy.me/20260727/)
+[XY 问题](https://zh.wikipedia.org/wiki/XY%E9%97%AE%E9%A2%98)
 
 [Men suck at maintaining friendships](https://varunraghu.com/men-suck-at-maintaining-friendships/)
 
