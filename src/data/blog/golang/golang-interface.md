@@ -21,12 +21,30 @@ type Rect struct{ W, H float64 }
 
 func (r Rect) Area() float64 { return r.W * r.H }
 
+type Circle struct{ R float64 }
+
+func (c Circle) Area() float64 { return 3.14 * c.R * c.R }
+
 func PrintArea(s Shape) {
-    fmt.Println(s.Area())
+    fmt.Println(s.Area()) // 两次调用执行的都是这一行
 }
 
 PrintArea(Rect{3, 4}) // 12
+PrintArea(Circle{2})  // 12.56
 ```
+
+先看 `PrintArea(Rect{3, 4})`。`Rect` 的复合字面量能赋给 `Shape`，是因为编译期已经按方法集核对过 `Area`。这次调用的参数 `s` 是一个二元组，两个机器字并排：「动态类型 (type)」和「动态值 (data)」。动态类型是 `Rect`，动态值是 `{3, 4}`。接口变量只留类型和数据。方法地址在这个类型的**方法表**上，后文把这张表称为 `itab`，这个需要注意。
+
+编译器看到 `s.Area()` 时，只知道 `s` 满足 `Shape`，所以一定有 `Area`。`PrintArea(Rect{3, 4})` 执行时：
+
+1. 读 `s` 的动态类型，得到 `Rect`
+2. 到 `Rect` 的方法表里取出 `Area`
+3. 把动态值 `Rect{3, 4}` 作为接收者传进去
+4. 执行 `r.W * r.H`，得到 `12`
+
+再看 `PrintArea(Circle{2})`。它执行的是同一行 `s.Area()`，`PrintArea` 只编译一次，`Rect` 和 `Circle` 各有自己的 `Area`。参数的静态类型始终是 `Shape`，编译器只保证一定有 `Area`。这一次动态类型是 `Circle`，所以执行 `Circle.Area`，得到 `12.56`。
+
+调用哪一个 `Area`，看这一次接口里的动态类型。这就是多态。
 
 ## 空接口
 
@@ -40,16 +58,20 @@ fmt.Println(s, ok) // hello true
 
 ## nil 接口与「装着 nil 的接口」
 
-接口变量为 `nil`，要求类型信息和数据指针都为空。把一个 `nil` 指针装进去，类型那一侧已经不是空的了：
+接口变量为 `nil`，要求类型信息和数据指针都为空。把一个 `nil` 的 `*int` 装进去，类型是 `*int`，不为空：
 
 ```go
 var p *int = nil
 var i any = p
+fmt.Printf("%T\n", i) // *int
 fmt.Println(i == nil) // false
 
 var j any
+fmt.Printf("%T\n", j) // <nil>
 fmt.Println(j == nil) // true
 ```
+
+`j` 两个字都空着，调用方法会 panic，报 `invalid memory address or nil pointer dereference`：运行时找不到动态类型，也就找不到方法。`i` 的类型已经填上，是 `*int`，数据是 `nil` 指针。这就是前文要同时看动态类型和动态值两个字的原因。
 
 ## eface 与 iface
 
@@ -70,7 +92,7 @@ type eface struct {
 
 `data` 指向具体值，一般不把值嵌进接口变量自己里面。把非指针值赋给接口时，往往会先拷一份出来（装箱），小整数等少数情况可以走静态表，其余容易逃逸到堆。`go build -gcflags="-m"` 里看到 `escapes to heap`，接口赋值是常见原因之一。
 
-`eface` 和 `iface` 是接口变量的两种布局；`itab` 只出现在带方法的那种里。`any` 的第一字是 `_type`，直接指向具体类型；`Shape` 这类接口的第一字是 `tab`，指向一张 `itab`。同一对「接口 × 具体类型」共用一张表，变量自己只握着 `tab` 和 `data`。调用 `s.Speak()` 时从 `tab` 取出入口再间接跳转，通常也无法内联。
+`eface` 和 `iface` 是接口变量的两种布局；`itab` 只出现在带方法的那种里。`any` 的第一字是 `_type`，直接指向具体类型；`Shape` 这类接口的第一字是 `tab`，指向一张 `itab`。同一对「接口 × 具体类型」共用一张表，变量自己只握着 `tab` 和 `data`。调用 `s.Speak()` 时从 `tab` 取出入口再间接跳转，通常也无法内联。这就是前文 `s.Area()` 从动态类型的方法表里取出 `Area` 地址来调用的原因。
 
 这也解释了上一节：`i == nil` 比较的是这两个指针是否都为空。`_type`/`tab` 已经指向 `*int` 或 `*MyError` 时，接口就不是 `nil`。
 
