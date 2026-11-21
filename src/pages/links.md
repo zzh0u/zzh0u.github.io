@@ -27,12 +27,6 @@ title: "Links"
 
 [https://openai.com/index/scaling-postgresql/](https://openai.com/index/scaling-postgresql/)
 
-[你不知道的 Claude Code：架构、治理与工程实践](https://tw93.fun/2026-03-12/claude.html)
-
-[你不知道的 Agent：原理、架构与工程实践](https://tw93.fun/2026-03-21/agent.html)
-
-[你不知道的大模型训练：原理、路径与新实践](https://tw93.fun/2026-04-03/llm.html)
-
 [Why does Go not have the ?: operator?](https://go.dev/doc/faq#Does_Go_have_a_ternary_form)
 
 [To my students](http://ozark.hendrix.edu/~yorgey/forest/00FD/index.xml)
