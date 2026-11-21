@@ -9,6 +9,10 @@ title: "Links"
 
 ### 技术
 
+[如何优雅地优雅退出？](https://www.geedea.pro/article/functional-shutdown/)
+
+[Dotr: 一个简单的配置备份工具](https://catcoding.me/p/dotr-intro/)
+
 [Best Practices for Secure Error Handling in Go](https://blog.jetbrains.com/go/2026/03/02/secure-go-error-handling-best-practices/)
 
 [程序员和整洁的 Home](https://www.geedea.pro/essays/clean-home/)
